@@ -1,0 +1,1809 @@
+﻿Log file open, 06/06/17 23:15:53
+LogInit:Display: Running engine for game: H2Owned_2017
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(2106338961) SRandInit(2106338961).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.098615
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3466753
+LogInit: Engine Version: 4.16.1-3466753+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): May 31 2017 02:03:30
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.06.06-13.15.53:635][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.06-13.15.53:635][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.06-13.15.53:647][  0]LogInit: Computer: COLA-ALIENWARE
+[2017.06.06-13.15.53:647][  0]LogInit: User: Cola
+[2017.06.06-13.15.53:647][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.06.06-13.15.53:647][  0]LogInit: High frequency timer resolution =2.531252 MHz
+[2017.06.06-13.15.53:647][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2017.06.06-13.15.53:647][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.06-13.15.53:647][  0]LogMemory: Process Physical Memory: 273.48 MB used, 273.48 MB peak
+[2017.06.06-13.15.53:647][  0]LogMemory: Process Virtual Memory: 260.86 MB used, 260.86 MB peak
+[2017.06.06-13.15.53:647][  0]LogMemory: Physical Memory: 10603.95 MB used,  22031.53 MB free, 32635.48 MB total
+[2017.06.06-13.15.53:647][  0]LogMemory: Virtual Memory: 638.44 MB used,  22031.53 MB free, 134217728.00 MB total
+[2017.06.06-13.15.53:725][  0]LogInit: Using OS detected language (en-US).
+[2017.06.06-13.15.53:725][  0]LogInit: Using OS detected locale (en-AU).
+[2017.06.06-13.15.53:727][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.06.06-13.15.54:779][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.06-13.15.54:819][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980M' (Feature Level 11_0)
+[2017.06.06-13.15.54:819][  0]LogD3D11RHI:       8153/0/16317 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.06.06-13.15.54:839][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2017.06.06-13.15.54:839][  0]LogD3D11RHI:       128/0/16317 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.06.06-13.15.54:841][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.06.06-13.15.54:841][  0]LogD3D11RHI:       0/0/16317 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.06.06-13.15.54:841][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.06-13.15.54:848][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.06-13.15.54:848][  0]LogD3D11RHI:     GPU DeviceId: 0x13d7 (for the marketing name, search the web for "GPU Device Id")
+[2017.06.06-13.15.54:848][  0]LogWindows: EnumDisplayDevices:
+[2017.06.06-13.15.54:848][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.06.06-13.15.54:848][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.06.06-13.15.54:848][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.06.06-13.15.54:849][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980M' (P:1 D:1)
+[2017.06.06-13.15.54:849][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2017.06.06-13.15.54:849][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980M
+[2017.06.06-13.15.54:849][  0]LogD3D11RHI:   Driver Version: 382.33 (internal:22.21.13.8233, unified:382.33)
+[2017.06.06-13.15.54:849][  0]LogD3D11RHI:      Driver Date: 5-17-2017
+[2017.06.06-13.15.54:849][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.06.06-13.15.54:882][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.06-13.15.54:896][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.06.06-13.15.54:946][  0]LogShaderCompilers: Guid format shader working directory is 0 characters bigger than the processId version (D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Intermediate/Shaders/WorkingDirectory/6108/).
+[2017.06.06-13.15.54:946][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Cola/AppData/Local/Temp/UnrealShaderWorkingDir/6174FF1C442C42C3149F61A0B274A5F8/'.
+[2017.06.06-13.15.54:946][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.06-13.15.56:052][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.06-13.15.56:109][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.06.06-13.15.56:163][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.06.06-13.15.56:217][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.06.06-13.15.56:271][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.06.06-13.15.56:325][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.06-13.15.56:382][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.06-13.15.56:437][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.06-13.15.56:485][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.06-13.15.56:540][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.06-13.15.56:594][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.06-13.15.56:649][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.06-13.15.56:706][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.06-13.15.56:770][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.06-13.15.56:826][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.06-13.15.56:933][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.06-13.15.56:933][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.06-13.15.56:977][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.06-13.15.57:081][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.06-13.15.57:113][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.06-13.15.57:165][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.06.06-13.15.57:219][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.06-13.15.57:272][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.06-13.15.57:327][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.06-13.15.57:327][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.06-13.15.57:877][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.06-13.15.57:977][  0]LogDerivedDataCache: Loaded boot cache 0.10s 90MB C:/Users/Cola/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.06-13.15.57:977][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Cola/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.06.06-13.15.57:977][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.06-13.15.57:977][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.06-13.15.57:977][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.06-13.15.57:977][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.06-13.15.57:998][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.06-13.15.58:010][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Cola/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.06-13.15.58:020][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.06.06-13.15.58:021][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.06-13.15.58:021][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.06-13.15.58:021][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.06-13.15.58:369][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.06-13.15.58:445][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.06-13.15.58:618][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.06-13.15.58:669][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.06-13.15.58:721][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.06-13.15.58:721][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.06-13.15.58:721][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.06-13.15.59:373][  0]LogNetVersion: H2Owned_2017 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3695325218)
+[2017.06.06-13.15.59:440][  0]LogAssetRegistry: FAssetRegistry took 0.0259 seconds to start up
+[2017.06.06-13.15.59:501][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.034359 seconds
+[2017.06.06-13.15.59:507][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.06.06-13.15.59:507][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.06.06-13.15.59:507][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.06-13.15.59:583][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.06.06-13.16.02:193][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.06.06-13.16.02:237][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.06-13.16.02:790][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.06-13.16.03:235][  0]SourceControl: Info Source control is disabled
+[2017.06.06-13.16.03:236][  0]SourceControl: Info Source control is disabled
+[2017.06.06-13.16.03:291][  0]SourceControl: Info Source control is disabled
+[2017.06.06-13.16.03:349][  0]SourceControl: Info Source control is disabled
+[2017.06.06-13.16.04:088][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.06.06-13.16.04:743][  0]LogEngine: Initializing Engine...
+[2017.06.06-13.16.04:744][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.06.06-13.16.04:999][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.06-13.16.04:999][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.06-13.16.05:142][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.06-13.16.05:153][  0]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.06-13.16.05:164][  0]LogInit: FAudioDevice initialized.
+[2017.06.06-13.16.05:208][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/Cola/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.06-13.16.05:222][  0]LogInit: Texture streaming: Enabled
+[2017.06.06-13.16.05:431][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.06.06-13.16.05:664][  0]LogInit: Transaction tracking system initialized
+[2017.06.06-13.16.06:013][  0]BlueprintLog: New page: Editor Load
+[2017.06.06-13.16.07:058][  0]LocalizationService: Info Localization service is disabled
+[2017.06.06-13.16.07:801][  0]LogConsoleResponse:Display: 
+[2017.06.06-13.16.07:976][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.06.06-13.16.07:976][  0]LogCook:Display: Mobile HDR setting 1
+[2017.06.06-13.16.08:345][  0]LogFileCache: Scanning file cache for directory 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/' took 0.01s
+[2017.06.06-13.16.09:110][  0]SourceControl: Info Source control is disabled
+[2017.06.06-13.16.09:110][  0]Cmd: MAP LOAD FILE="D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.06-13.16.09:111][  0]LightingResults: New page: Lighting Build
+[2017.06.06-13.16.09:157][  0]MapCheck: New page: Map Check
+[2017.06.06-13.16.09:157][  0]LightingResults: New page: Lighting Build
+[2017.06.06-13.16.09:543][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.06.06-13.16.09:552][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.06-13.16.09:570][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.06-13.16.09:625][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 55.137ms to complete.
+[2017.06.06-13.16.09:625][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.515
+[2017.06.06-13.16.09:800][  0]LogCollectionManager: Loaded 0 collections in 0.001950 seconds
+[2017.06.06-13.16.09:899][  0]LogFileCache: Scanning file cache for directory 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Saved/Collections/' took 0.01s
+[2017.06.06-13.16.09:899][  0]LogFileCache: Scanning file cache for directory 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Developers/Cola/Collections/' took 0.01s
+[2017.06.06-13.16.09:899][  0]LogFileCache: Scanning file cache for directory 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Collections/' took 0.01s
+[2017.06.06-13.16.09:899][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.06.06-13.16.09:911][  0]LogContentBrowser: Native class hierarchy populated in 0.0126 seconds. Added 2329 classes and 491 folders.
+[2017.06.06-13.16.09:985][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.06.06-13.16.10:022][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.06.06-13.16.10:073][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.06.06-13.16.10:121][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.06-13.16.10:127][  0]LogSlate: Took 0.000175 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.06-13.16.10:129][  0]LogSlate: Took 0.000218 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.06.06-13.16.10:134][  0]LogSlate: Took 0.000234 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.06.06-13.16.10:250][  0]LogRenderer: Reallocating scene render targets to support 1320x516 NumSamples 1 (Frame:1).
+[2017.06.06-13.16.10:380][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.06-13.16.10:455][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.06.06-13.16.10:456][  0]LogLoad: (Engine Initialization) Total time: 18.38 seconds
+[2017.06.06-13.16.10:456][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.10 seconds
+[2017.06.06-13.16.10:456][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.06.06-13.16.10:456][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.06.06-13.16.10:477][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.06-13.16.10:478][  0]LogOcInput: OculusInput pre-init called
+[2017.06.06-13.16.10:478][  0]LogHMD: Starting GearVRController plugin
+[2017.06.06-13.16.10:494][  0]LogAssetRegistry: Asset discovery search completed in 11.0761 seconds
+[2017.06.06-13.16.10:496][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.06.06-13.16.10:496][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000040 seconds (updated 0 objects)
+[2017.06.06-13.16.10:499][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.06.06-13.16.10:550][  0]LogSlate: Took 0.000260 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.06-13.16.12:377][106]LogSlate: Took 0.000197 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.06-13.16.12:399][106]LogAIModule: Creating AISystem for world Test1
+[2017.06.06-13.16.12:414][106]Cmd: MAP LOAD FILE="D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Test1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.06-13.16.12:414][106]LightingResults: New page: Lighting Build
+[2017.06.06-13.16.12:415][106]LoadErrors: New page: Loading map: Test1.umap
+[2017.06.06-13.16.12:415][106]MapCheck: New page: Map Check
+[2017.06.06-13.16.12:415][106]LightingResults: New page: Lighting Build
+[2017.06.06-13.16.12:429][106]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.06-13.16.12:461][106]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.06-13.16.12:509][106]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 48.309ms to complete.
+[2017.06.06-13.16.12:509][106]LogFileHelpers: Loading map 'Test1' took 0.095
+[2017.06.06-13.16.14:461][222]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.06-13.16.14:493][222]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.06-13.16.14:494][222]PIE: New page: PIE session: Test1 (7 Jun 2017 9:16:14 am)
+[2017.06.06-13.16.14:494][222]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Test1
+[2017.06.06-13.16.14:496][222]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002540s)
+[2017.06.06-13.16.14:497][222]LogAIModule: Creating AISystem for world Test1
+[2017.06.06-13.16.14:497][222]LogPlayLevel: PIE: World Init took: (0.000841s)
+[2017.06.06-13.16.14:497][222]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Test1.Test1 to /Game/UEDPIE_0_Test1.Test1 (0.003552s)
+[2017.06.06-13.16.14:510][222]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.06-13.16.14:516][222]LogInit: FAudioDevice initialized.
+[2017.06.06-13.16.14:654][222]LogLoad: Game class is 'H2O_DefaultGameMode_C'
+[2017.06.06-13.16.14:657][222]LogWorld: Bringing World /Game/UEDPIE_0_Test1.Test1 up for play (max tick rate 60) at 2017.06.06-23.16.14
+[2017.06.06-13.16.14:657][222]LogWorld: Bringing up level for play took: 0.000720
+[2017.06.06-13.16.14:703][222]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.06.06-13.16.14:705][222]PIE: Info Play in editor start time for /Game/UEDPIE_0_Test1 0.608
+[2017.06.06-13.16.16:047][301]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.16.16:647][337]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.16.17:430][384]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.16.17:663][398]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.16.17:980][417]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.16.18:247][433]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.16.19:014][479]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.16.19:714][521]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.16.20:397][562]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.16.21:314][617]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.16.21:898][652]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.16.22:164][668]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.16.23:297][736]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.16.23:714][761]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.16.24:881][831]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.16.25:464][866]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.16.25:964][896]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.16.26:581][933]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.16.34:682][419]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Reload / Pumping Gun
+[2017.06.06-13.16.35:165][448]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.16.35:465][466]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.16.35:999][498]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.16.36:232][512]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.16.36:415][523]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.16.36:632][536]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.16.36:815][547]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.16.36:998][558]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.16.37:182][569]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.16.37:365][580]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.16.37:549][591]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.16.37:716][601]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.16.37:882][611]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.16.38:049][621]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.16.38:232][632]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.16.38:449][645]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.16.38:598][654]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.16.39:115][685]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.16.39:299][696]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.16.39:466][706]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.16.39:649][717]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.16.39:815][727]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.16.39:982][737]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.16.40:699][780]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.16.40:999][798]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.16.41:299][816]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.16.41:832][848]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.16.42:199][870]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.20.11:001][163]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.06-13.20.11:015][163]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.06-13.20.11:015][163]PIE: New page: PIE session: Test1 (7 Jun 2017 9:20:11 am)
+[2017.06.06-13.20.11:015][163]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Test1
+[2017.06.06-13.20.11:019][163]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003392s)
+[2017.06.06-13.20.11:020][163]LogAIModule: Creating AISystem for world Test1
+[2017.06.06-13.20.11:020][163]LogPlayLevel: PIE: World Init took: (0.001335s)
+[2017.06.06-13.20.11:020][163]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Test1.Test1 to /Game/UEDPIE_0_Test1.Test1 (0.005050s)
+[2017.06.06-13.20.11:032][163]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.06-13.20.11:039][163]LogInit: FAudioDevice initialized.
+[2017.06.06-13.20.11:073][163]LogLoad: Game class is 'H2O_DefaultGameMode_C'
+[2017.06.06-13.20.11:076][163]LogWorld: Bringing World /Game/UEDPIE_0_Test1.Test1 up for play (max tick rate 60) at 2017.06.06-23.20.11
+[2017.06.06-13.20.11:076][163]LogWorld: Bringing up level for play took: 0.000802
+[2017.06.06-13.20.11:078][163]PIE: Info Play in editor start time for /Game/UEDPIE_0_Test1 0.981
+[2017.06.06-13.20.12:296][236]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Reload / Pumping Gun
+[2017.06.06-13.20.12:296][236]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.20.12:579][253]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Reload / Pumping Gun
+[2017.06.06-13.20.12:796][266]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Reload / Pumping Gun
+[2017.06.06-13.20.12:979][277]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Reload / Pumping Gun
+[2017.06.06-13.20.13:179][289]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Reload / Pumping Gun
+[2017.06.06-13.20.14:029][340]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Grenade
+[2017.06.06-13.20.14:646][377]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Reload / Pumping Gun
+[2017.06.06-13.20.15:146][407]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Reload / Pumping Gun
+[2017.06.06-13.20.15:530][430]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Reload / Pumping Gun
+[2017.06.06-13.20.17:096][524]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.20.18:146][587]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.20.19:197][650]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.20.32:731][462]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.20.33:414][503]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.20.34:430][564]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.20.34:797][586]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.20.35:097][604]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.20.35:348][619]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.20.35:764][644]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.20.36:031][660]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.20.36:214][671]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Reload / Pumping Gun
+[2017.06.06-13.20.36:214][671]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.20.36:364][680]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.20.36:531][690]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Reload / Pumping Gun
+[2017.06.06-13.20.37:114][725]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Grenade
+[2017.06.06-13.20.37:331][738]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Grenade
+[2017.06.06-13.20.37:964][776]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.20.38:914][833]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.20.41:731][  2]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Reload / Pumping Gun
+[2017.06.06-13.20.43:015][ 79]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.20.43:382][101]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.20.44:115][145]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.20.44:365][160]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.20.44:615][175]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.20.45:065][202]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.20.45:431][224]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.20.45:982][257]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.20.46:498][288]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.20.46:815][307]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.20.47:049][321]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.20.47:315][337]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.20.47:582][353]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.20.47:815][367]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.20.48:082][383]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.20.48:515][409]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.20.48:932][434]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.20.49:149][447]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Grenade
+[2017.06.06-13.20.49:365][460]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Grenade
+[2017.06.06-13.20.49:532][470]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Grenade
+[2017.06.06-13.20.49:749][483]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Grenade
+[2017.06.06-13.20.49:932][494]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Grenade
+[2017.06.06-13.20.50:149][507]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Grenade
+[2017.06.06-13.20.50:332][518]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Grenade
+[2017.06.06-13.20.50:615][535]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Grenade
+[2017.06.06-13.20.50:915][553]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.20.51:065][562]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Reload / Pumping Gun
+[2017.06.06-13.20.51:099][564]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.20.51:165][568]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Grenade
+[2017.06.06-13.20.51:282][575]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.20.51:315][577]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Reload / Pumping Gun
+[2017.06.06-13.20.51:349][579]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Grenade
+[2017.06.06-13.20.51:466][586]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.20.51:549][591]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Grenade
+[2017.06.06-13.20.51:649][597]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.20.51:666][598]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Reload / Pumping Gun
+[2017.06.06-13.20.51:715][601]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Grenade
+[2017.06.06-13.20.51:832][608]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Reload / Pumping Gun
+[2017.06.06-13.20.51:832][608]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.20.51:899][612]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Grenade
+[2017.06.06-13.20.51:999][618]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Reload / Pumping Gun
+[2017.06.06-13.20.51:999][618]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.20.52:099][624]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Grenade
+[2017.06.06-13.20.52:182][629]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Reload / Pumping Gun
+[2017.06.06-13.20.52:199][630]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.20.52:266][634]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Grenade
+[2017.06.06-13.20.53:249][693]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.20.54:882][791]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.20.55:149][807]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.20.55:349][819]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.20.55:549][831]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.20.55:732][842]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.20.56:349][879]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.20.56:682][899]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.20.57:782][965]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Grenade
+[2017.06.06-13.20.57:999][978]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Grenade
+[2017.06.06-13.20.58:199][990]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Grenade
+[2017.06.06-13.20.58:933][ 34]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.20.59:233][ 52]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.00:883][151]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.01:416][183]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.01:716][201]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.01:966][216]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.02:550][251]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.03:750][323]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.04:050][341]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.04:666][378]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.05:134][406]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.05:750][443]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.06:367][480]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.06:733][502]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.07:000][518]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.07:184][529]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.07:450][545]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.07:650][557]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.08:001][578]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.08:184][589]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.08:351][599]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.08:550][611]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.08:717][621]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.08:867][630]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.09:067][642]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.09:217][651]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.10:084][703]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.15:586][ 29]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.06-13.21.15:603][ 29]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.06-13.21.15:603][ 29]PIE: New page: PIE session: Test1 (7 Jun 2017 9:21:15 am)
+[2017.06.06-13.21.15:603][ 29]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Test1
+[2017.06.06-13.21.15:606][ 29]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002799s)
+[2017.06.06-13.21.15:607][ 29]LogAIModule: Creating AISystem for world Test1
+[2017.06.06-13.21.15:607][ 29]LogPlayLevel: PIE: World Init took: (0.000715s)
+[2017.06.06-13.21.15:607][ 29]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Test1.Test1 to /Game/UEDPIE_0_Test1.Test1 (0.003674s)
+[2017.06.06-13.21.15:619][ 29]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.06-13.21.15:627][ 29]LogInit: FAudioDevice initialized.
+[2017.06.06-13.21.15:661][ 29]LogLoad: Game class is 'H2O_DefaultGameMode_C'
+[2017.06.06-13.21.15:663][ 29]LogWorld: Bringing World /Game/UEDPIE_0_Test1.Test1 up for play (max tick rate 60) at 2017.06.06-23.21.15
+[2017.06.06-13.21.15:663][ 29]LogWorld: Bringing up level for play took: 0.000555
+[2017.06.06-13.21.15:665][ 29]PIE: Info Play in editor start time for /Game/UEDPIE_0_Test1 -0.432
+[2017.06.06-13.21.17:135][117]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.17:402][133]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.17:668][149]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.17:935][165]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.18:118][176]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.18:402][193]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.18:718][212]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.18:968][227]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.19:419][254]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.19:635][267]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.19:885][282]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.20:368][311]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.21:302][367]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.22:485][438]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.22:686][450]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.22:902][463]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.23:519][500]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.23:702][511]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.23:885][522]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.24:085][534]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.24:269][545]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.24:469][557]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.24:652][568]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.24:852][580]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.25:402][613]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.25:602][625]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.25:802][637]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.26:002][649]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.26:202][661]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.26:419][674]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.26:619][686]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.26:836][699]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.27:019][710]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.27:219][722]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.27:402][733]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.27:619][746]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.28:219][782]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.28:519][800]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.28:802][817]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.29:336][849]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.29:736][873]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.30:052][892]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.30:269][905]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.31:269][965]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.31:886][  2]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.32:786][ 56]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.33:069][ 73]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.33:319][ 88]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.33:536][101]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.33:752][114]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.33:970][127]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.34:203][141]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.34:403][153]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.34:603][165]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.34:936][185]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.35:219][202]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.35:920][244]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.36:153][258]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.36:370][271]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.36:553][282]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.36:753][294]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.39:103][435]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.39:354][450]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.39:937][485]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.40:187][500]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.40:487][518]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.40:737][533]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.41:421][574]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.41:987][608]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.42:321][628]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.43:020][670]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.43:554][702]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.43:904][723]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.44:104][735]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.44:354][750]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.44:821][778]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.45:054][792]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.45:271][805]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.45:621][826]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.46:371][871]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.46:987][908]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.47:588][944]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.48:255][984]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.48:754][ 14]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.49:521][ 60]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.50:105][ 95]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.50:538][121]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.51:721][192]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.52:271][225]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.52:572][243]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.52:888][262]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.54:739][373]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.55:672][429]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.56:289][466]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.56:572][483]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.57:055][512]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.57:238][523]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.57:488][538]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.57:705][551]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.21.58:089][574]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.02:456][836]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.02:839][859]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.03:206][881]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.04:506][959]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.04:756][974]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.05:323][  8]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.05:657][ 28]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.05:940][ 45]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.10:340][309]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.10:890][342]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.11:507][379]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.11:774][395]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.12:057][412]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.12:757][454]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.13:373][491]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.13:607][505]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.14:123][536]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.14:590][564]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.14:807][577]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.15:324][608]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.15:609][625]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.16:060][652]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.16:259][664]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.16:476][677]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.16:693][690]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.17:192][720]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.19:326][848]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.19:643][867]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.19:877][881]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.20:576][923]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.20:859][940]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.21:326][968]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.21:660][988]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.21:943][  5]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.22:210][ 21]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.22:460][ 36]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.23:327][ 88]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.23:943][125]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.24:193][140]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.24:410][153]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.24:627][166]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.25:027][190]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.25:427][214]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.25:660][228]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.25:810][237]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.25:993][248]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.26:194][260]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.26:377][271]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.26:560][282]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.26:744][293]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.26:927][304]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.27:127][316]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.27:310][327]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.27:510][339]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.27:994][368]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.28:344][389]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.28:594][404]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.29:161][438]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.29:727][472]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.30:461][516]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.30:694][530]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.31:277][565]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.31:844][599]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.32:261][624]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.32:494][638]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.32:977][667]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.33:228][682]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.33:494][698]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.34:111][735]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.34:361][750]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.34:577][763]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.34:795][776]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.35:194][800]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.36:228][862]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.37:361][930]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.38:045][971]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.38:311][987]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.38:628][  6]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.39:495][ 58]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.39:745][ 73]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.39:978][ 87]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.40:261][104]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.40:478][117]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.40:695][130]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.22.41:528][180]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.23.00:010][257]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 112 classes and 0 folders.
+[2017.06.06-13.23.00:687][257]LogSlate: Took 0.000139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.06-13.23.00:757][257]LogSlate: Took 0.000188 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.06.06-13.23.00:978][258]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.06.06-13.23.28:447][873]LogRenderer: Reallocating scene render targets to support 1320x528 NumSamples 1 (Frame:1).
+[2017.06.06-13.26.56:243][139]BlueprintLog: New page: Compile H2O_Default_ThirdPersonCharacter
+[2017.06.06-13.26.56:990][162]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/H2O_Default_ThirdPersonCharacter" FILE="D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset" SILENT=true
+[2017.06.06-13.26.57:110][162]LogSavePackage: Save=111.31ms
+[2017.06.06-13.26.57:110][162]LogSavePackage: Moving 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Saved/H2O_Default_ThirdPersonCharacterBA99C8A04BD1AE036FBCB9852BABACC1.tmp' to 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset'
+[2017.06.06-13.26.57:112][162]LogSavePackage:Display: Finished SavePackage D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset
+[2017.06.06-13.27.12:657][ 91]BlueprintLog: New page: Compile H2O_Default_ThirdPersonCharacter
+[2017.06.06-13.27.13:442][127]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/H2O_Default_ThirdPersonCharacter" FILE="D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset" SILENT=true
+[2017.06.06-13.27.13:559][127]LogSavePackage: Save=114.04ms
+[2017.06.06-13.27.13:559][127]LogSavePackage: Moving 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Saved/H2O_Default_ThirdPersonCharacterD4D34F954E0F7C68BB3E48AB2038B7AE.tmp' to 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset'
+[2017.06.06-13.27.13:561][127]LogSavePackage:Display: Finished SavePackage D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset
+[2017.06.06-13.27.15:379][236]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.06-13.27.15:401][236]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.06-13.27.15:401][236]PIE: New page: PIE session: Test1 (7 Jun 2017 9:27:15 am)
+[2017.06.06-13.27.15:401][236]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Test1
+[2017.06.06-13.27.15:403][236]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002520s)
+[2017.06.06-13.27.15:404][236]LogAIModule: Creating AISystem for world Test1
+[2017.06.06-13.27.15:404][236]LogPlayLevel: PIE: World Init took: (0.001042s)
+[2017.06.06-13.27.15:405][236]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Test1.Test1 to /Game/UEDPIE_0_Test1.Test1 (0.003790s)
+[2017.06.06-13.27.15:421][236]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.06-13.27.15:429][236]LogInit: FAudioDevice initialized.
+[2017.06.06-13.27.15:459][236]LogLoad: Game class is 'H2O_DefaultGameMode_C'
+[2017.06.06-13.27.15:461][236]LogWorld: Bringing World /Game/UEDPIE_0_Test1.Test1 up for play (max tick rate 60) at 2017.06.06-23.27.15
+[2017.06.06-13.27.15:461][236]LogWorld: Bringing up level for play took: 0.000762
+[2017.06.06-13.27.15:464][236]PIE: Info Play in editor start time for /Game/UEDPIE_0_Test1 -0.634
+[2017.06.06-13.27.39:000][581]BlueprintLog: New page: Compile H2O_Default_ThirdPersonCharacter
+[2017.06.06-13.27.39:680][610]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/H2O_Default_ThirdPersonCharacter" FILE="D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset" SILENT=true
+[2017.06.06-13.27.39:791][610]LogSavePackage: Save=109.12ms
+[2017.06.06-13.27.39:791][610]LogSavePackage: Moving 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Saved/H2O_Default_ThirdPersonCharacter010E8A6A4187B2719CFC739AEF004BAE.tmp' to 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset'
+[2017.06.06-13.27.39:792][610]LogSavePackage:Display: Finished SavePackage D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset
+[2017.06.06-13.27.43:754][818]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.06-13.27.43:771][818]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.06-13.27.43:771][818]PIE: New page: PIE session: Test1 (7 Jun 2017 9:27:43 am)
+[2017.06.06-13.27.43:771][818]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Test1
+[2017.06.06-13.27.43:773][818]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001800s)
+[2017.06.06-13.27.43:773][818]LogAIModule: Creating AISystem for world Test1
+[2017.06.06-13.27.43:774][818]LogPlayLevel: PIE: World Init took: (0.000860s)
+[2017.06.06-13.27.43:774][818]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Test1.Test1 to /Game/UEDPIE_0_Test1.Test1 (0.002833s)
+[2017.06.06-13.27.43:790][818]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.06-13.27.43:797][818]LogInit: FAudioDevice initialized.
+[2017.06.06-13.27.43:828][818]LogLoad: Game class is 'H2O_DefaultGameMode_C'
+[2017.06.06-13.27.43:830][818]LogWorld: Bringing World /Game/UEDPIE_0_Test1.Test1 up for play (max tick rate 60) at 2017.06.06-23.27.43
+[2017.06.06-13.27.43:830][818]LogWorld: Bringing up level for play took: 0.000676
+[2017.06.06-13.27.43:832][818]PIE: Info Play in editor start time for /Game/UEDPIE_0_Test1 -0.266
+[2017.06.06-13.27.45:107][894]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.27.54:058][431]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.27.54:358][449]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.27.54:526][459]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.27.54:675][468]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.27.54:825][477]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.27.54:992][487]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.28.08:028][210]BlueprintLog: New page: Compile H2O_Default_ThirdPersonCharacter
+[2017.06.06-13.28.08:805][236]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/H2O_Default_ThirdPersonCharacter" FILE="D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset" SILENT=true
+[2017.06.06-13.28.08:915][236]LogSavePackage: Save=107.89ms
+[2017.06.06-13.28.08:915][236]LogSavePackage: Moving 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Saved/H2O_Default_ThirdPersonCharacterA072106C48045A57D99412BFB7976D21.tmp' to 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset'
+[2017.06.06-13.28.08:916][236]LogSavePackage:Display: Finished SavePackage D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset
+[2017.06.06-13.30.37:716][621]LogSlate: Took 0.000250 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.06-13.30.46:742][648]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Test1' took 0.017
+[2017.06.06-13.30.46:743][648]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/H2O_Default_ThirdPersonCharacter] ([1] browsable assets)...
+[2017.06.06-13.30.46:771][648]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/H2O_Default_ThirdPersonCharacter.H2O_Default_ThirdPersonCharacter]
+[2017.06.06-13.30.46:771][648]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/H2O_Default_ThirdPersonCharacter]
+[2017.06.06-13.30.46:883][648]LogSavePackage: Save=109.75ms
+[2017.06.06-13.30.46:883][648]LogSavePackage: Moving 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Saved/H2O_Default_ThirdPersonCharacter_Auto1CB2570A148A9AF00B74578BA6E6E06C2.tmp' to 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Saved/Autosaves/Game/Blueprints/H2O_Default_ThirdPersonCharacter_Auto1.uasset'
+[2017.06.06-13.30.46:884][648]LogSavePackage:Display: Finished SavePackage D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Saved/Autosaves/Game/Blueprints/H2O_Default_ThirdPersonCharacter_Auto1.uasset
+[2017.06.06-13.30.46:884][648]LogFileHelpers: Auto-saving content packages took 0.141
+[2017.06.06-13.34.17:694][677]LogRenderer: Reallocating scene render targets to support 1320x712 NumSamples 1 (Frame:171).
+[2017.06.06-13.41.23:551][413]LogEditorTransaction: Undo Modify Component(s)
+[2017.06.06-13.42.10:258][187]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Test1' took 0.017
+[2017.06.06-13.42.10:261][187]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/H2O_Default_ThirdPersonCharacter] ([1] browsable assets)...
+[2017.06.06-13.42.10:277][187]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/H2O_Default_ThirdPersonCharacter.H2O_Default_ThirdPersonCharacter]
+[2017.06.06-13.42.10:277][187]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/H2O_Default_ThirdPersonCharacter]
+[2017.06.06-13.42.10:394][187]LogSavePackage: Save=109.49ms
+[2017.06.06-13.42.10:394][187]LogSavePackage: Moving 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Saved/H2O_Default_ThirdPersonCharacter_Auto2F2D66F9644974622C514D6A7EB7D81E7.tmp' to 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Saved/Autosaves/Game/Blueprints/H2O_Default_ThirdPersonCharacter_Auto2.uasset'
+[2017.06.06-13.42.10:395][187]LogSavePackage:Display: Finished SavePackage D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Saved/Autosaves/Game/Blueprints/H2O_Default_ThirdPersonCharacter_Auto2.uasset
+[2017.06.06-13.42.10:395][187]LogFileHelpers: Auto-saving content packages took 0.135
+[2017.06.06-13.43.32:798][841]LogEditorTransaction: Undo Promote To Variable
+[2017.06.06-13.45.19:930][968]BlueprintLog: New page: Compile H2O_Default_ThirdPersonCharacter
+[2017.06.06-13.45.21:040][ 13]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/H2O_Default_ThirdPersonCharacter" FILE="D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset" SILENT=true
+[2017.06.06-13.45.21:157][ 13]LogSavePackage: Save=114.28ms
+[2017.06.06-13.45.21:157][ 13]LogSavePackage: Moving 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Saved/H2O_Default_ThirdPersonCharacterAF86FE814049356C389BCF8BB1B6E959.tmp' to 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset'
+[2017.06.06-13.45.21:158][ 13]LogSavePackage:Display: Finished SavePackage D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset
+[2017.06.06-13.45.24:500][186]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.06-13.45.24:515][186]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.06-13.45.24:515][186]PIE: New page: PIE session: Test1 (7 Jun 2017 9:45:24 am)
+[2017.06.06-13.45.24:515][186]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Test1
+[2017.06.06-13.45.24:518][186]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002710s)
+[2017.06.06-13.45.24:519][186]LogAIModule: Creating AISystem for world Test1
+[2017.06.06-13.45.24:519][186]LogPlayLevel: PIE: World Init took: (0.000958s)
+[2017.06.06-13.45.24:519][186]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Test1.Test1 to /Game/UEDPIE_0_Test1.Test1 (0.003890s)
+[2017.06.06-13.45.24:538][186]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.06-13.45.24:545][186]LogInit: FAudioDevice initialized.
+[2017.06.06-13.45.24:580][186]LogLoad: Game class is 'H2O_DefaultGameMode_C'
+[2017.06.06-13.45.24:582][186]LogWorld: Bringing World /Game/UEDPIE_0_Test1.Test1 up for play (max tick rate 60) at 2017.06.06-23.45.24
+[2017.06.06-13.45.24:582][186]LogWorld: Bringing up level for play took: 0.000771
+[2017.06.06-13.45.24:585][186]PIE: Info Play in editor start time for /Game/UEDPIE_0_Test1 0.487
+[2017.06.06-13.46.35:138][342]LogEditorTransaction: Undo Add Component Nodes
+[2017.06.06-13.47.24:439][278]BlueprintLog: New page: Compile H2O_Default_ThirdPersonCharacter
+[2017.06.06-13.47.25:095][306]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/H2O_Default_ThirdPersonCharacter" FILE="D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset" SILENT=true
+[2017.06.06-13.47.25:334][306]LogSavePackage: Save=110.87ms
+[2017.06.06-13.47.25:334][306]LogSavePackage: Moving 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Saved/H2O_Default_ThirdPersonCharacterC03107914F3BD108EDB2A98AFAD19B87.tmp' to 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset'
+[2017.06.06-13.47.25:335][306]LogSavePackage:Display: Finished SavePackage D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset
+[2017.06.06-13.47.26:518][358]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.06-13.47.26:535][358]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.06-13.47.26:535][358]PIE: New page: PIE session: Test1 (7 Jun 2017 9:47:26 am)
+[2017.06.06-13.47.26:535][358]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Test1
+[2017.06.06-13.47.26:537][358]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002428s)
+[2017.06.06-13.47.26:538][358]LogAIModule: Creating AISystem for world Test1
+[2017.06.06-13.47.26:538][358]LogPlayLevel: PIE: World Init took: (0.001012s)
+[2017.06.06-13.47.26:539][358]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Test1.Test1 to /Game/UEDPIE_0_Test1.Test1 (0.003751s)
+[2017.06.06-13.47.26:555][358]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.06-13.47.26:562][358]LogInit: FAudioDevice initialized.
+[2017.06.06-13.47.26:597][358]LogLoad: Game class is 'H2O_DefaultGameMode_C'
+[2017.06.06-13.47.26:599][358]LogWorld: Bringing World /Game/UEDPIE_0_Test1.Test1 up for play (max tick rate 60) at 2017.06.06-23.47.26
+[2017.06.06-13.47.26:599][358]LogWorld: Bringing up level for play took: 0.000754
+[2017.06.06-13.47.26:601][358]PIE: Info Play in editor start time for /Game/UEDPIE_0_Test1 0.504
+[2017.06.06-13.51.10:428][465]LogEditorTransaction: Undo Paste Component(s)
+[2017.06.06-13.51.15:112][737]LogUObjectHash:Warning: Ambiguous search, could be CameraComponent /Engine/Transient.FollowCamera_GEN_VARIABLE or CameraComponent /Engine/Transient.FollowCamera_GEN_VARIABLE
+[2017.06.06-13.51.15:658][770]LogUObjectHash:Warning: Ambiguous search, could be CameraComponent /Engine/Transient.FollowCamera_GEN_VARIABLE or CameraComponent /Engine/Transient.FollowCamera_GEN_VARIABLE
+[2017.06.06-13.51.34:580][895]LogEditorTransaction: Undo Attach Components
+[2017.06.06-13.51.34:587][895]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_1:PersistentLevel.H2O_Default_ThirdPersonCharacter_C_1.Arrow) Component already registered.
+[2017.06.06-13.51.34:588][895]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_1:PersistentLevel.H2O_Default_ThirdPersonCharacter_C_1.CharMoveComp) Component already registered.
+[2017.06.06-13.52.13:399][188]LogEditorTransaction: Undo Create Pin Link
+[2017.06.06-13.53.42:756][456]BlueprintLog: New page: Compile H2O_Default_ThirdPersonCharacter
+[2017.06.06-13.53.43:466][472]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/H2O_Default_ThirdPersonCharacter" FILE="D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset" SILENT=true
+[2017.06.06-13.53.43:587][472]LogSavePackage: Save=112.65ms
+[2017.06.06-13.53.43:587][472]LogSavePackage: Moving 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Saved/H2O_Default_ThirdPersonCharacterF474C7264552AFC2E34AFBA59411DEB8.tmp' to 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset'
+[2017.06.06-13.53.43:588][472]LogSavePackage:Display: Finished SavePackage D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset
+[2017.06.06-13.57.07:744][569]BlueprintLog: New page: Compile H2O_Default_ThirdPersonCharacter
+[2017.06.06-13.57.08:422][594]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/H2O_Default_ThirdPersonCharacter" FILE="D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset" SILENT=true
+[2017.06.06-13.57.08:541][594]LogSavePackage: Save=117.01ms
+[2017.06.06-13.57.08:541][594]LogSavePackage: Moving 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Saved/H2O_Default_ThirdPersonCharacter8A108E8A4BB31F007CE82591252C4A56.tmp' to 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset'
+[2017.06.06-13.57.08:543][594]LogSavePackage:Display: Finished SavePackage D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset
+[2017.06.06-13.57.10:369][703]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.06-13.57.10:389][703]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.06-13.57.10:389][703]PIE: New page: PIE session: Test1 (7 Jun 2017 9:57:10 am)
+[2017.06.06-13.57.10:389][703]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Test1
+[2017.06.06-13.57.10:392][703]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002637s)
+[2017.06.06-13.57.10:392][703]LogAIModule: Creating AISystem for world Test1
+[2017.06.06-13.57.10:393][703]LogPlayLevel: PIE: World Init took: (0.001035s)
+[2017.06.06-13.57.10:393][703]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Test1.Test1 to /Game/UEDPIE_0_Test1.Test1 (0.003893s)
+[2017.06.06-13.57.10:410][703]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.06-13.57.10:418][703]LogInit: FAudioDevice initialized.
+[2017.06.06-13.57.10:453][703]LogLoad: Game class is 'H2O_DefaultGameMode_C'
+[2017.06.06-13.57.10:455][703]LogWorld: Bringing World /Game/UEDPIE_0_Test1.Test1 up for play (max tick rate 60) at 2017.06.06-23.57.10
+[2017.06.06-13.57.10:455][703]LogWorld: Bringing up level for play took: 0.001070
+[2017.06.06-13.57.10:458][703]PIE: Info Play in editor start time for /Game/UEDPIE_0_Test1 0.36
+[2017.06.06-13.57.13:060][859]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.57.13:326][875]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.57.13:693][897]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.57.13:876][908]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.57.15:026][977]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.57.15:193][987]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.57.20:660][315]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.57.21:094][341]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.57.21:277][352]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.57.21:443][362]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.57.21:627][373]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.57.21:827][385]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.57.22:177][406]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.57.23:594][491]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.57.23:760][501]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.57.24:077][520]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.57.24:277][532]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.57.24:727][559]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.57.25:260][591]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.57.25:460][603]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-13.59.19:173][987]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Test1' took 0.023
+[2017.06.06-13.59.19:174][987]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/H2O_Default_ThirdPersonCharacter] ([1] browsable assets)...
+[2017.06.06-13.59.19:174][987]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/H2O_Default_ThirdPersonCharacter]
+[2017.06.06-13.59.19:287][987]LogSavePackage: Save=105.19ms
+[2017.06.06-13.59.19:287][987]LogSavePackage: Moving 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Saved/H2O_Default_ThirdPersonCharacter_Auto398CFBB174DBEFBCD1B75D98AFBD10220.tmp' to 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Saved/Autosaves/Game/Blueprints/H2O_Default_ThirdPersonCharacter_Auto3.uasset'
+[2017.06.06-13.59.19:287][987]LogSavePackage:Display: Finished SavePackage D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Saved/Autosaves/Game/Blueprints/H2O_Default_ThirdPersonCharacter_Auto3.uasset
+[2017.06.06-13.59.19:287][987]LogFileHelpers: Auto-saving content packages took 0.114
+[2017.06.06-14.02.19:383][ 74]BlueprintLog: New page: Compile H2O_Default_ThirdPersonCharacter
+[2017.06.06-14.02.56:881][254]LogEditorTransaction: Undo Add new track
+[2017.06.06-14.03.43:566][ 49]BlueprintLog: New page: Compile H2O_Default_ThirdPersonCharacter
+[2017.06.06-14.03.44:197][ 65]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/H2O_Default_ThirdPersonCharacter" FILE="D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset" SILENT=true
+[2017.06.06-14.03.44:311][ 65]LogSavePackage: Save=111.40ms
+[2017.06.06-14.03.44:311][ 65]LogSavePackage: Moving 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Saved/H2O_Default_ThirdPersonCharacter8968807143B7E59DD7D493B127740922.tmp' to 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset'
+[2017.06.06-14.03.44:313][ 65]LogSavePackage:Display: Finished SavePackage D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset
+[2017.06.06-14.03.55:740][743]BlueprintLog: New page: Compile H2O_Default_ThirdPersonCharacter
+[2017.06.06-14.03.56:722][790]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/H2O_Default_ThirdPersonCharacter" FILE="D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset" SILENT=true
+[2017.06.06-14.03.56:841][790]LogSavePackage: Save=116.28ms
+[2017.06.06-14.03.56:841][790]LogSavePackage: Moving 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Saved/H2O_Default_ThirdPersonCharacterB3237122441F7566FFFDF2B21051ECE4.tmp' to 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset'
+[2017.06.06-14.03.56:843][790]LogSavePackage:Display: Finished SavePackage D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset
+[2017.06.06-14.03.58:677][900]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.06-14.03.58:694][900]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.06-14.03.58:694][900]PIE: New page: PIE session: Test1 (7 Jun 2017 10:03:58 am)
+[2017.06.06-14.03.58:694][900]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Test1
+[2017.06.06-14.03.58:697][900]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002613s)
+[2017.06.06-14.03.58:698][900]LogAIModule: Creating AISystem for world Test1
+[2017.06.06-14.03.58:698][900]LogPlayLevel: PIE: World Init took: (0.001143s)
+[2017.06.06-14.03.58:698][900]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Test1.Test1 to /Game/UEDPIE_0_Test1.Test1 (0.004034s)
+[2017.06.06-14.03.58:716][900]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.06-14.03.58:723][900]LogInit: FAudioDevice initialized.
+[2017.06.06-14.03.58:758][900]LogLoad: Game class is 'H2O_DefaultGameMode_C'
+[2017.06.06-14.03.58:760][900]LogWorld: Bringing World /Game/UEDPIE_0_Test1.Test1 up for play (max tick rate 60) at 2017.06.07-00.03.58
+[2017.06.06-14.03.58:760][900]LogWorld: Bringing up level for play took: 0.000738
+[2017.06.06-14.03.58:763][900]PIE: Info Play in editor start time for /Game/UEDPIE_0_Test1 0.665
+[2017.06.06-14.04.17:042][985]BlueprintLog: New page: Compile H2O_Default_ThirdPersonCharacter
+[2017.06.06-14.04.17:505][  1]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/H2O_Default_ThirdPersonCharacter" FILE="D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset" SILENT=true
+[2017.06.06-14.04.17:622][  1]LogSavePackage: Save=113.76ms
+[2017.06.06-14.04.17:622][  1]LogSavePackage: Moving 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Saved/H2O_Default_ThirdPersonCharacterE5C4F53B48AD24320F1F9099E7E4252E.tmp' to 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset'
+[2017.06.06-14.04.17:623][  1]LogSavePackage:Display: Finished SavePackage D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset
+[2017.06.06-14.04.18:957][ 59]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.06-14.04.18:974][ 59]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.06-14.04.18:975][ 59]PIE: New page: PIE session: Test1 (7 Jun 2017 10:04:18 am)
+[2017.06.06-14.04.18:975][ 59]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Test1
+[2017.06.06-14.04.18:977][ 59]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002437s)
+[2017.06.06-14.04.18:978][ 59]LogAIModule: Creating AISystem for world Test1
+[2017.06.06-14.04.18:978][ 59]LogPlayLevel: PIE: World Init took: (0.000864s)
+[2017.06.06-14.04.18:978][ 59]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Test1.Test1 to /Game/UEDPIE_0_Test1.Test1 (0.003546s)
+[2017.06.06-14.04.18:996][ 59]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.06-14.04.19:002][ 59]LogInit: FAudioDevice initialized.
+[2017.06.06-14.04.19:035][ 59]LogLoad: Game class is 'H2O_DefaultGameMode_C'
+[2017.06.06-14.04.19:037][ 59]LogWorld: Bringing World /Game/UEDPIE_0_Test1.Test1 up for play (max tick rate 60) at 2017.06.07-00.04.19
+[2017.06.06-14.04.19:037][ 59]LogWorld: Bringing up level for play took: 0.000872
+[2017.06.06-14.04.19:040][ 59]PIE: Info Play in editor start time for /Game/UEDPIE_0_Test1 0.943
+[2017.06.06-14.05.06:642][722]BlueprintLog: New page: Compile H2O_Default_ThirdPersonCharacter
+[2017.06.06-14.05.07:166][742]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/H2O_Default_ThirdPersonCharacter" FILE="D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset" SILENT=true
+[2017.06.06-14.05.07:282][742]LogSavePackage: Save=108.13ms
+[2017.06.06-14.05.07:282][742]LogSavePackage: Moving 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Saved/H2O_Default_ThirdPersonCharacterE61A207B4B6DC0A791B267BB2D2D208C.tmp' to 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset'
+[2017.06.06-14.05.07:284][742]LogSavePackage:Display: Finished SavePackage D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset
+[2017.06.06-14.05.09:921][872]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.06-14.05.09:937][872]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.06-14.05.09:937][872]PIE: New page: PIE session: Test1 (7 Jun 2017 10:05:09 am)
+[2017.06.06-14.05.09:937][872]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Test1
+[2017.06.06-14.05.09:939][872]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002221s)
+[2017.06.06-14.05.09:940][872]LogAIModule: Creating AISystem for world Test1
+[2017.06.06-14.05.09:940][872]LogPlayLevel: PIE: World Init took: (0.000925s)
+[2017.06.06-14.05.09:940][872]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Test1.Test1 to /Game/UEDPIE_0_Test1.Test1 (0.003468s)
+[2017.06.06-14.05.09:958][872]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.06-14.05.09:965][872]LogInit: FAudioDevice initialized.
+[2017.06.06-14.05.09:996][872]LogLoad: Game class is 'H2O_DefaultGameMode_C'
+[2017.06.06-14.05.09:999][872]LogWorld: Bringing World /Game/UEDPIE_0_Test1.Test1 up for play (max tick rate 60) at 2017.06.07-00.05.09
+[2017.06.06-14.05.09:999][872]LogWorld: Bringing up level for play took: 0.000940
+[2017.06.06-14.05.10:001][872]PIE: Info Play in editor start time for /Game/UEDPIE_0_Test1 -0.096
+[2017.06.06-14.10.27:209][697]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Test1' took 0.019
+[2017.06.06-14.10.27:211][697]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/H2O_Default_ThirdPersonCharacter] ([1] browsable assets)...
+[2017.06.06-14.10.27:239][697]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/H2O_Default_ThirdPersonCharacter.H2O_Default_ThirdPersonCharacter]
+[2017.06.06-14.10.27:239][697]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/H2O_Default_ThirdPersonCharacter]
+[2017.06.06-14.10.27:368][697]LogSavePackage: Save=120.40ms
+[2017.06.06-14.10.27:368][697]LogSavePackage: Moving 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Saved/H2O_Default_ThirdPersonCharacter_Auto4C92586F54F7E5BF0E4162B819B53DB05.tmp' to 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Saved/Autosaves/Game/Blueprints/H2O_Default_ThirdPersonCharacter_Auto4.uasset'
+[2017.06.06-14.10.27:368][697]LogSavePackage:Display: Finished SavePackage D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Saved/Autosaves/Game/Blueprints/H2O_Default_ThirdPersonCharacter_Auto4.uasset
+[2017.06.06-14.10.27:368][697]LogFileHelpers: Auto-saving content packages took 0.159
+[2017.06.06-14.25.30:306][448]BlueprintLog: New page: Compile H2O_Default_ThirdPersonCharacter
+[2017.06.06-14.25.30:978][466]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/H2O_Default_ThirdPersonCharacter" FILE="D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset" SILENT=true
+[2017.06.06-14.25.31:110][466]LogSavePackage: Save=119.44ms
+[2017.06.06-14.25.31:110][466]LogSavePackage: Moving 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Saved/H2O_Default_ThirdPersonCharacter29BCA3E84FACF5284392AD90ADA17362.tmp' to 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset'
+[2017.06.06-14.25.31:115][466]LogSavePackage:Display: Finished SavePackage D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset
+[2017.06.06-14.25.33:282][596]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.06-14.25.33:302][596]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.06-14.25.33:302][596]PIE: New page: PIE session: Test1 (7 Jun 2017 10:25:33 am)
+[2017.06.06-14.25.33:302][596]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Test1
+[2017.06.06-14.25.33:312][596]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009839s)
+[2017.06.06-14.25.33:312][596]LogAIModule: Creating AISystem for world Test1
+[2017.06.06-14.25.33:312][596]LogPlayLevel: PIE: World Init took: (0.000711s)
+[2017.06.06-14.25.33:313][596]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Test1.Test1 to /Game/UEDPIE_0_Test1.Test1 (0.010795s)
+[2017.06.06-14.25.33:330][596]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.06-14.25.33:338][596]LogInit: FAudioDevice initialized.
+[2017.06.06-14.25.33:373][596]LogLoad: Game class is 'H2O_DefaultGameMode_C'
+[2017.06.06-14.25.33:376][596]LogWorld: Bringing World /Game/UEDPIE_0_Test1.Test1 up for play (max tick rate 60) at 2017.06.07-00.25.33
+[2017.06.06-14.25.33:376][596]LogWorld: Bringing up level for play took: 0.000930
+[2017.06.06-14.25.33:378][596]PIE: Info Play in editor start time for /Game/UEDPIE_0_Test1 -0.719
+[2017.06.06-14.25.52:016][714]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.25.52:600][749]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.25.52:816][762]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.25.53:034][775]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.25.53:234][787]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.25.53:434][799]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.25.53:616][810]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.25.53:833][823]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.25.54:216][846]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.25.54:583][868]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.25.55:001][893]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.25.55:200][905]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.25.55:400][917]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.25.55:617][930]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.25.55:817][942]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.25.56:050][956]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.25.56:517][984]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.25.57:017][ 14]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.25.57:467][ 41]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.25.57:885][ 66]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.25.58:102][ 79]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.25.58:317][ 92]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.25.58:951][130]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.25.59:151][142]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.25.59:367][155]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.26.00:267][209]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.26.00:433][219]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.31.42:021][564]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.06-14.31.42:041][564]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.06-14.31.42:041][564]PIE: New page: PIE session: Test1 (7 Jun 2017 10:31:42 am)
+[2017.06.06-14.31.42:042][564]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Test1
+[2017.06.06-14.31.42:044][564]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002736s)
+[2017.06.06-14.31.42:046][564]LogAIModule: Creating AISystem for world Test1
+[2017.06.06-14.31.42:046][564]LogPlayLevel: PIE: World Init took: (0.001461s)
+[2017.06.06-14.31.42:046][564]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Test1.Test1 to /Game/UEDPIE_0_Test1.Test1 (0.004386s)
+[2017.06.06-14.31.42:063][564]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.06-14.31.42:070][564]LogInit: FAudioDevice initialized.
+[2017.06.06-14.31.42:105][564]LogLoad: Game class is 'H2O_DefaultGameMode_C'
+[2017.06.06-14.31.42:107][564]LogWorld: Bringing World /Game/UEDPIE_0_Test1.Test1 up for play (max tick rate 60) at 2017.06.07-00.31.42
+[2017.06.06-14.31.42:107][564]LogWorld: Bringing up level for play took: 0.000880
+[2017.06.06-14.31.42:110][564]PIE: Info Play in editor start time for /Game/UEDPIE_0_Test1 0.012
+[2017.06.06-14.31.47:556][852]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.06-14.31.47:572][852]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.06-14.31.47:573][852]PIE: New page: PIE session: Test1 (7 Jun 2017 10:31:47 am)
+[2017.06.06-14.31.47:573][852]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Test1
+[2017.06.06-14.31.47:575][852]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002046s)
+[2017.06.06-14.31.47:576][852]LogAIModule: Creating AISystem for world Test1
+[2017.06.06-14.31.47:576][852]LogPlayLevel: PIE: World Init took: (0.000973s)
+[2017.06.06-14.31.47:576][852]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Test1.Test1 to /Game/UEDPIE_0_Test1.Test1 (0.003197s)
+[2017.06.06-14.31.47:601][852]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.06-14.31.47:609][852]LogInit: FAudioDevice initialized.
+[2017.06.06-14.31.47:646][852]LogLoad: Game class is 'H2O_DefaultGameMode_C'
+[2017.06.06-14.31.47:649][852]LogWorld: Bringing World /Game/UEDPIE_0_Test1.Test1 up for play (max tick rate 60) at 2017.06.07-00.31.47
+[2017.06.06-14.31.47:649][852]LogWorld: Bringing up level for play took: 0.000888
+[2017.06.06-14.31.47:651][852]PIE: Info Play in editor start time for /Game/UEDPIE_0_Test1 -0.446
+[2017.06.06-14.31.56:749][397]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.31.57:416][437]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.31.57:765][458]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.31.58:450][499]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.31.59:166][542]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.31.59:649][571]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.32.02:400][736]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.32.02:733][756]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.32.03:733][816]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.32.09:701][174]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Reload / Pumping Gun
+[2017.06.06-14.32.09:951][189]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.32.10:301][210]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.32.10:551][225]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.32.10:784][239]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.32.12:234][326]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.32.12:634][350]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.32.12:968][370]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.32.13:251][387]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.32.13:634][410]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.32.13:901][426]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.32.14:268][448]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.32.14:484][461]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.32.14:734][476]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.32.43:629][817]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.06-14.32.43:647][817]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.06-14.32.43:647][817]PIE: New page: PIE session: Test1 (7 Jun 2017 10:32:43 am)
+[2017.06.06-14.32.43:647][817]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Test1
+[2017.06.06-14.32.43:650][817]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002899s)
+[2017.06.06-14.32.43:651][817]LogAIModule: Creating AISystem for world Test1
+[2017.06.06-14.32.43:651][817]LogPlayLevel: PIE: World Init took: (0.000902s)
+[2017.06.06-14.32.43:651][817]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Test1.Test1 to /Game/UEDPIE_0_Test1.Test1 (0.004109s)
+[2017.06.06-14.32.43:670][817]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.06-14.32.43:677][817]LogInit: FAudioDevice initialized.
+[2017.06.06-14.32.43:713][817]LogLoad: Game class is 'H2O_DefaultGameMode_C'
+[2017.06.06-14.32.43:715][817]LogWorld: Bringing World /Game/UEDPIE_0_Test1.Test1 up for play (max tick rate 60) at 2017.06.07-00.32.43
+[2017.06.06-14.32.43:715][817]LogWorld: Bringing up level for play took: 0.000944
+[2017.06.06-14.32.43:717][817]PIE: Info Play in editor start time for /Game/UEDPIE_0_Test1 -0.38
+[2017.06.06-14.32.48:124][ 81]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Reload / Pumping Gun
+[2017.06.06-14.33.17:959][871]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.33.18:425][899]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.33.18:976][932]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.33.19:259][949]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.33.19:542][966]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.33.19:776][980]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.33.23:926][229]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.33.24:593][269]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.33.24:810][282]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.33.25:026][295]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.33.25:226][307]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.33.25:426][319]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.33.25:626][331]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.33.25:809][342]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.33.26:009][354]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.33.26:443][380]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.33.26:810][402]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.33.27:026][415]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.33.27:543][446]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.33.27:760][459]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.33.29:110][540]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.33.30:160][603]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.33.30:693][635]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.33.31:043][656]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.33.31:393][677]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.33.31:793][701]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.33.32:360][735]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.33.32:810][762]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.33.33:127][781]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.33.34:510][864]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.33.34:844][884]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.33.35:127][901]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.33.35:577][928]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.33.35:910][948]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.35.00:613][224]BlueprintLog: New page: Compile H2O_Default_ThirdPersonCharacter
+[2017.06.06-14.35.01:281][241]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/H2O_Default_ThirdPersonCharacter" FILE="D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset" SILENT=true
+[2017.06.06-14.35.01:598][241]LogSavePackage: Save=308.08ms
+[2017.06.06-14.35.01:598][241]LogSavePackage: Moving 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Saved/H2O_Default_ThirdPersonCharacter9085EB294A65A4F569B886A1DFBCCC1C.tmp' to 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset'
+[2017.06.06-14.35.01:599][241]LogSavePackage:Display: Finished SavePackage D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset
+[2017.06.06-14.35.03:390][300]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.06-14.35.03:407][300]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.06-14.35.03:407][300]PIE: New page: PIE session: Test1 (7 Jun 2017 10:35:03 am)
+[2017.06.06-14.35.03:407][300]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Test1
+[2017.06.06-14.35.03:409][300]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002030s)
+[2017.06.06-14.35.03:410][300]LogAIModule: Creating AISystem for world Test1
+[2017.06.06-14.35.03:410][300]LogPlayLevel: PIE: World Init took: (0.001034s)
+[2017.06.06-14.35.03:410][300]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Test1.Test1 to /Game/UEDPIE_0_Test1.Test1 (0.003262s)
+[2017.06.06-14.35.03:427][300]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.06-14.35.03:434][300]LogInit: FAudioDevice initialized.
+[2017.06.06-14.35.03:470][300]LogLoad: Game class is 'H2O_DefaultGameMode_C'
+[2017.06.06-14.35.03:472][300]LogWorld: Bringing World /Game/UEDPIE_0_Test1.Test1 up for play (max tick rate 60) at 2017.06.07-00.35.03
+[2017.06.06-14.35.03:472][300]LogWorld: Bringing up level for play took: 0.000789
+[2017.06.06-14.35.03:474][300]PIE: Info Play in editor start time for /Game/UEDPIE_0_Test1 -0.623
+[2017.06.06-14.35.05:397][415]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Reload / Pumping Gun
+[2017.06.06-14.35.09:147][640]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.35.09:731][675]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.35.10:197][703]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.35.10:547][724]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.35.11:030][753]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.35.11:414][776]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.35.11:714][794]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.35.11:931][807]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.35.12:548][844]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.35.12:864][863]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.35.13:131][879]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.35.13:364][893]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.35.13:598][907]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.35.15:948][ 48]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.35.16:581][ 86]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.35.17:064][115]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.35.17:531][143]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.35.17:898][165]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.35.18:831][221]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.35.19:649][270]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.35.20:015][292]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.35.20:431][317]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.35.20:998][351]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.35.21:498][381]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.35.21:831][401]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.35.22:431][437]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.35.23:048][474]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.35.23:348][492]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.35.23:582][506]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.35.34:004][ 41]BlueprintLog: New page: Compile H2O_Default_ThirdPersonCharacter
+[2017.06.06-14.35.34:484][ 47]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/H2O_Default_ThirdPersonCharacter" FILE="D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset" SILENT=true
+[2017.06.06-14.35.34:598][ 47]LogSavePackage: Save=111.44ms
+[2017.06.06-14.35.34:598][ 47]LogSavePackage: Moving 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Saved/H2O_Default_ThirdPersonCharacterD1E1123445AD6C17620F4F81765E17D5.tmp' to 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset'
+[2017.06.06-14.35.34:599][ 47]LogSavePackage:Display: Finished SavePackage D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset
+[2017.06.06-14.39.56:712][808]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Test1' took 0.018
+[2017.06.06-14.39.56:713][808]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/H2O_Default_ThirdPersonCharacter] ([1] browsable assets)...
+[2017.06.06-14.39.56:728][808]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/H2O_Default_ThirdPersonCharacter.H2O_Default_ThirdPersonCharacter]
+[2017.06.06-14.39.56:729][808]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/H2O_Default_ThirdPersonCharacter]
+[2017.06.06-14.39.56:842][808]LogSavePackage: Save=110.37ms
+[2017.06.06-14.39.56:842][808]LogSavePackage: Moving 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Saved/H2O_Default_ThirdPersonCharacter_Auto5D63DEF794EE10BF171AA259E2A9BEF8E.tmp' to 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Saved/Autosaves/Game/Blueprints/H2O_Default_ThirdPersonCharacter_Auto5.uasset'
+[2017.06.06-14.39.56:842][808]LogSavePackage:Display: Finished SavePackage D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Saved/Autosaves/Game/Blueprints/H2O_Default_ThirdPersonCharacter_Auto5.uasset
+[2017.06.06-14.39.56:842][808]LogFileHelpers: Auto-saving content packages took 0.129
+[2017.06.06-14.40.19:460][165]BlueprintLog: New page: Compile H2O_Default_ThirdPersonCharacter
+[2017.06.06-14.40.37:223][207]BlueprintLog: New page: Compile H2O_Default_ThirdPersonCharacter
+[2017.06.06-14.40.37:913][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/H2O_Default_ThirdPersonCharacter" FILE="D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset" SILENT=true
+[2017.06.06-14.40.38:034][237]LogSavePackage: Save=113.10ms
+[2017.06.06-14.40.38:034][237]LogSavePackage: Moving 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Saved/H2O_Default_ThirdPersonCharacter5A81028E4FA1742E1C97F3A7484A3FC0.tmp' to 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset'
+[2017.06.06-14.40.38:035][237]LogSavePackage:Display: Finished SavePackage D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset
+[2017.06.06-14.40.39:502][298]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.06-14.40.39:519][298]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.06-14.40.39:519][298]PIE: New page: PIE session: Test1 (7 Jun 2017 10:40:39 am)
+[2017.06.06-14.40.39:519][298]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Test1
+[2017.06.06-14.40.39:521][298]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002290s)
+[2017.06.06-14.40.39:522][298]LogAIModule: Creating AISystem for world Test1
+[2017.06.06-14.40.39:522][298]LogPlayLevel: PIE: World Init took: (0.001402s)
+[2017.06.06-14.40.39:523][298]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Test1.Test1 to /Game/UEDPIE_0_Test1.Test1 (0.003879s)
+[2017.06.06-14.40.39:539][298]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.06-14.40.39:546][298]LogInit: FAudioDevice initialized.
+[2017.06.06-14.40.39:581][298]LogLoad: Game class is 'H2O_DefaultGameMode_C'
+[2017.06.06-14.40.39:583][298]LogWorld: Bringing World /Game/UEDPIE_0_Test1.Test1 up for play (max tick rate 60) at 2017.06.07-00.40.39
+[2017.06.06-14.40.39:584][298]LogWorld: Bringing up level for play took: 0.000765
+[2017.06.06-14.40.39:586][298]PIE: Info Play in editor start time for /Game/UEDPIE_0_Test1 -0.512
+[2017.06.06-14.41.02:176][530]BlueprintLog: New page: Compile H2O_Default_ThirdPersonCharacter
+[2017.06.06-14.41.02:723][551]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/H2O_Default_ThirdPersonCharacter" FILE="D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset" SILENT=true
+[2017.06.06-14.41.02:836][551]LogSavePackage: Save=110.29ms
+[2017.06.06-14.41.02:836][551]LogSavePackage: Moving 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Saved/H2O_Default_ThirdPersonCharacterDE00F4DD4A7FC31CFE6989A4E37CAFB0.tmp' to 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset'
+[2017.06.06-14.41.02:838][551]LogSavePackage:Display: Finished SavePackage D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset
+[2017.06.06-14.41.04:198][615]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.06-14.41.04:215][615]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.06-14.41.04:215][615]PIE: New page: PIE session: Test1 (7 Jun 2017 10:41:04 am)
+[2017.06.06-14.41.04:215][615]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Test1
+[2017.06.06-14.41.04:218][615]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002316s)
+[2017.06.06-14.41.04:219][615]LogAIModule: Creating AISystem for world Test1
+[2017.06.06-14.41.04:219][615]LogPlayLevel: PIE: World Init took: (0.001072s)
+[2017.06.06-14.41.04:219][615]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Test1.Test1 to /Game/UEDPIE_0_Test1.Test1 (0.003640s)
+[2017.06.06-14.41.04:236][615]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.06-14.41.04:242][615]LogInit: FAudioDevice initialized.
+[2017.06.06-14.41.04:276][615]LogLoad: Game class is 'H2O_DefaultGameMode_C'
+[2017.06.06-14.41.04:278][615]LogWorld: Bringing World /Game/UEDPIE_0_Test1.Test1 up for play (max tick rate 60) at 2017.06.07-00.41.04
+[2017.06.06-14.41.04:278][615]LogWorld: Bringing up level for play took: 0.000783
+[2017.06.06-14.41.04:280][615]PIE: Info Play in editor start time for /Game/UEDPIE_0_Test1 0.183
+[2017.06.06-14.41.38:221][575]LogEditorTransaction: Undo Break Pin Link
+[2017.06.06-14.42.19:041][ 16]BlueprintLog: New page: Compile H2O_Default_ThirdPersonCharacter
+[2017.06.06-14.42.19:600][ 37]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/H2O_Default_ThirdPersonCharacter" FILE="D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset" SILENT=true
+[2017.06.06-14.42.19:712][ 37]LogSavePackage: Save=110.44ms
+[2017.06.06-14.42.19:712][ 37]LogSavePackage: Moving 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Saved/H2O_Default_ThirdPersonCharacter2DC2512A4C3A27D4242FE4B95763B7CC.tmp' to 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset'
+[2017.06.06-14.42.19:714][ 37]LogSavePackage:Display: Finished SavePackage D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset
+[2017.06.06-14.42.21:004][ 95]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.06-14.42.21:021][ 95]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.06-14.42.21:021][ 95]PIE: New page: PIE session: Test1 (7 Jun 2017 10:42:21 am)
+[2017.06.06-14.42.21:021][ 95]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Test1
+[2017.06.06-14.42.21:024][ 95]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002529s)
+[2017.06.06-14.42.21:024][ 95]LogAIModule: Creating AISystem for world Test1
+[2017.06.06-14.42.21:025][ 95]LogPlayLevel: PIE: World Init took: (0.000931s)
+[2017.06.06-14.42.21:025][ 95]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Test1.Test1 to /Game/UEDPIE_0_Test1.Test1 (0.003708s)
+[2017.06.06-14.42.21:044][ 95]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.06-14.42.21:052][ 95]LogInit: FAudioDevice initialized.
+[2017.06.06-14.42.21:081][ 95]LogLoad: Game class is 'H2O_DefaultGameMode_C'
+[2017.06.06-14.42.21:083][ 95]LogWorld: Bringing World /Game/UEDPIE_0_Test1.Test1 up for play (max tick rate 60) at 2017.06.07-00.42.21
+[2017.06.06-14.42.21:084][ 95]LogWorld: Bringing up level for play took: 0.001004
+[2017.06.06-14.42.21:086][ 95]PIE: Info Play in editor start time for /Game/UEDPIE_0_Test1 0.989
+[2017.06.06-14.42.44:786][456]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/H2O_Default_ThirdPersonCharacter" FILE="D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset" SILENT=true
+[2017.06.06-14.42.44:900][456]LogSavePackage: Save=111.26ms
+[2017.06.06-14.42.44:900][456]LogSavePackage: Moving 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Saved/H2O_Default_ThirdPersonCharacter9B286BC44A0C6DF87A533DAE8F637087.tmp' to 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset'
+[2017.06.06-14.42.44:902][456]LogSavePackage:Display: Finished SavePackage D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset
+[2017.06.06-14.43.24:483][829]BlueprintLog: New page: Compile H2O_Default_ThirdPersonCharacter
+[2017.06.06-14.43.25:096][854]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/H2O_Default_ThirdPersonCharacter" FILE="D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset" SILENT=true
+[2017.06.06-14.43.25:210][854]LogSavePackage: Save=111.41ms
+[2017.06.06-14.43.25:210][854]LogSavePackage: Moving 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Saved/H2O_Default_ThirdPersonCharacter2ACD3A024F2CC48B8FB16EAD2C906116.tmp' to 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset'
+[2017.06.06-14.43.25:212][854]LogSavePackage:Display: Finished SavePackage D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset
+[2017.06.06-14.43.30:407][140]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.06-14.43.30:425][140]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.06-14.43.30:425][140]PIE: New page: PIE session: Test1 (7 Jun 2017 10:43:30 am)
+[2017.06.06-14.43.30:425][140]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Test1
+[2017.06.06-14.43.30:428][140]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002878s)
+[2017.06.06-14.43.30:429][140]LogAIModule: Creating AISystem for world Test1
+[2017.06.06-14.43.30:429][140]LogPlayLevel: PIE: World Init took: (0.000912s)
+[2017.06.06-14.43.30:429][140]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Test1.Test1 to /Game/UEDPIE_0_Test1.Test1 (0.004112s)
+[2017.06.06-14.43.30:448][140]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.06-14.43.30:455][140]LogInit: FAudioDevice initialized.
+[2017.06.06-14.43.30:491][140]LogLoad: Game class is 'H2O_DefaultGameMode_C'
+[2017.06.06-14.43.30:494][140]LogWorld: Bringing World /Game/UEDPIE_0_Test1.Test1 up for play (max tick rate 60) at 2017.06.07-00.43.30
+[2017.06.06-14.43.30:494][140]LogWorld: Bringing up level for play took: 0.000708
+[2017.06.06-14.43.30:496][140]PIE: Info Play in editor start time for /Game/UEDPIE_0_Test1 0.398
+[2017.06.06-14.43.37:619][563]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.06-14.43.37:636][563]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.06-14.43.37:636][563]PIE: New page: PIE session: Test1 (7 Jun 2017 10:43:37 am)
+[2017.06.06-14.43.37:636][563]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Test1
+[2017.06.06-14.43.37:639][563]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002705s)
+[2017.06.06-14.43.37:639][563]LogAIModule: Creating AISystem for world Test1
+[2017.06.06-14.43.37:639][563]LogPlayLevel: PIE: World Init took: (0.000873s)
+[2017.06.06-14.43.37:640][563]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Test1.Test1 to /Game/UEDPIE_0_Test1.Test1 (0.003841s)
+[2017.06.06-14.43.37:660][563]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.06-14.43.37:667][563]LogInit: FAudioDevice initialized.
+[2017.06.06-14.43.37:701][563]LogLoad: Game class is 'H2O_DefaultGameMode_C'
+[2017.06.06-14.43.37:704][563]LogWorld: Bringing World /Game/UEDPIE_0_Test1.Test1 up for play (max tick rate 60) at 2017.06.07-00.43.37
+[2017.06.06-14.43.37:704][563]LogWorld: Bringing up level for play took: 0.000764
+[2017.06.06-14.43.37:706][563]PIE: Info Play in editor start time for /Game/UEDPIE_0_Test1 -0.392
+[2017.06.06-14.44.17:880][899]BlueprintLog: New page: Compile H2O_Default_ThirdPersonCharacter
+[2017.06.06-14.44.18:565][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/H2O_Default_ThirdPersonCharacter" FILE="D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset" SILENT=true
+[2017.06.06-14.44.18:689][918]LogSavePackage: Save=121.03ms
+[2017.06.06-14.44.18:689][918]LogSavePackage: Moving 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Saved/H2O_Default_ThirdPersonCharacter7A06E0154070865162B7518F9ADFAED0.tmp' to 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset'
+[2017.06.06-14.44.18:691][918]LogSavePackage:Display: Finished SavePackage D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset
+[2017.06.06-14.44.28:477][494]BlueprintLog: New page: Compile H2O_Default_ThirdPersonCharacter
+[2017.06.06-14.44.29:264][529]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/H2O_Default_ThirdPersonCharacter" FILE="D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset" SILENT=true
+[2017.06.06-14.44.29:384][529]LogSavePackage: Save=117.73ms
+[2017.06.06-14.44.29:384][529]LogSavePackage: Moving 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Saved/H2O_Default_ThirdPersonCharacter92E41D74427D92873E95F0BFFE3A48DA.tmp' to 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset'
+[2017.06.06-14.44.29:386][529]LogSavePackage:Display: Finished SavePackage D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset
+[2017.06.06-14.44.30:907][596]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.06-14.44.30:924][596]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.06-14.44.30:925][596]PIE: New page: PIE session: Test1 (7 Jun 2017 10:44:30 am)
+[2017.06.06-14.44.30:925][596]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Test1
+[2017.06.06-14.44.30:927][596]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002559s)
+[2017.06.06-14.44.30:928][596]LogAIModule: Creating AISystem for world Test1
+[2017.06.06-14.44.30:928][596]LogPlayLevel: PIE: World Init took: (0.000946s)
+[2017.06.06-14.44.30:928][596]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Test1.Test1 to /Game/UEDPIE_0_Test1.Test1 (0.003718s)
+[2017.06.06-14.44.30:945][596]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.06-14.44.30:954][596]LogInit: FAudioDevice initialized.
+[2017.06.06-14.44.30:985][596]LogLoad: Game class is 'H2O_DefaultGameMode_C'
+[2017.06.06-14.44.30:987][596]LogWorld: Bringing World /Game/UEDPIE_0_Test1.Test1 up for play (max tick rate 60) at 2017.06.07-00.44.30
+[2017.06.06-14.44.30:987][596]LogWorld: Bringing up level for play took: 0.000801
+[2017.06.06-14.44.30:990][596]PIE: Info Play in editor start time for /Game/UEDPIE_0_Test1 0.893
+[2017.06.06-14.45.14:055][232]BlueprintLog: New page: Compile H2O_Default_ThirdPersonCharacter
+[2017.06.06-14.45.14:594][252]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/H2O_Default_ThirdPersonCharacter" FILE="D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset" SILENT=true
+[2017.06.06-14.45.14:714][252]LogSavePackage: Save=117.20ms
+[2017.06.06-14.45.14:714][252]LogSavePackage: Moving 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Saved/H2O_Default_ThirdPersonCharacter2929B23448E98F23A3B15B809C4AC6EB.tmp' to 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset'
+[2017.06.06-14.45.14:715][252]LogSavePackage:Display: Finished SavePackage D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset
+[2017.06.06-14.45.40:131][776]BlueprintLog: New page: Compile H2O_Default_ThirdPersonCharacter
+[2017.06.06-14.45.40:588][791]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/H2O_Default_ThirdPersonCharacter" FILE="D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset" SILENT=true
+[2017.06.06-14.45.40:711][791]LogSavePackage: Save=115.80ms
+[2017.06.06-14.45.40:711][791]LogSavePackage: Moving 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Saved/H2O_Default_ThirdPersonCharacterC773700343A6635F35FECE9431AAF0F2.tmp' to 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset'
+[2017.06.06-14.45.40:712][791]LogSavePackage:Display: Finished SavePackage D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset
+[2017.06.06-14.45.55:025][646]BlueprintLog: New page: Compile H2O_Default_ThirdPersonCharacter
+[2017.06.06-14.45.55:564][666]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/H2O_Default_ThirdPersonCharacter" FILE="D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset" SILENT=true
+[2017.06.06-14.45.55:683][666]LogSavePackage: Save=116.92ms
+[2017.06.06-14.45.55:683][666]LogSavePackage: Moving 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Saved/H2O_Default_ThirdPersonCharacterBA52FC6C46298D79A41F569FB99FC332.tmp' to 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset'
+[2017.06.06-14.45.55:684][666]LogSavePackage:Display: Finished SavePackage D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset
+[2017.06.06-14.45.57:390][745]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.06-14.45.57:408][745]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.06-14.45.57:408][745]PIE: New page: PIE session: Test1 (7 Jun 2017 10:45:57 am)
+[2017.06.06-14.45.57:408][745]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Test1
+[2017.06.06-14.45.57:410][745]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002106s)
+[2017.06.06-14.45.57:411][745]LogAIModule: Creating AISystem for world Test1
+[2017.06.06-14.45.57:411][745]LogPlayLevel: PIE: World Init took: (0.000951s)
+[2017.06.06-14.45.57:412][745]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Test1.Test1 to /Game/UEDPIE_0_Test1.Test1 (0.003287s)
+[2017.06.06-14.45.57:428][745]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.06-14.45.57:436][745]LogInit: FAudioDevice initialized.
+[2017.06.06-14.45.57:468][745]LogLoad: Game class is 'H2O_DefaultGameMode_C'
+[2017.06.06-14.45.57:471][745]LogWorld: Bringing World /Game/UEDPIE_0_Test1.Test1 up for play (max tick rate 60) at 2017.06.07-00.45.57
+[2017.06.06-14.45.57:471][745]LogWorld: Bringing up level for play took: 0.000792
+[2017.06.06-14.45.57:473][745]PIE: Info Play in editor start time for /Game/UEDPIE_0_Test1 -0.624
+[2017.06.06-14.47.05:515][762]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.06-14.47.05:533][762]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.06-14.47.05:533][762]PIE: New page: PIE session: Test1 (7 Jun 2017 10:47:05 am)
+[2017.06.06-14.47.05:533][762]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Test1
+[2017.06.06-14.47.05:535][762]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002370s)
+[2017.06.06-14.47.05:536][762]LogAIModule: Creating AISystem for world Test1
+[2017.06.06-14.47.05:536][762]LogPlayLevel: PIE: World Init took: (0.001023s)
+[2017.06.06-14.47.05:537][762]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Test1.Test1 to /Game/UEDPIE_0_Test1.Test1 (0.003630s)
+[2017.06.06-14.47.05:553][762]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.06-14.47.05:561][762]LogInit: FAudioDevice initialized.
+[2017.06.06-14.47.05:596][762]LogLoad: Game class is 'H2O_DefaultGameMode_C'
+[2017.06.06-14.47.05:599][762]LogWorld: Bringing World /Game/UEDPIE_0_Test1.Test1 up for play (max tick rate 60) at 2017.06.07-00.47.05
+[2017.06.06-14.47.05:599][762]LogWorld: Bringing up level for play took: 0.000944
+[2017.06.06-14.47.05:602][762]PIE: Info Play in editor start time for /Game/UEDPIE_0_Test1 -0.496
+[2017.06.06-14.47.21:222][659]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.06-14.47.21:222][659]PIE: New page: SIE session: Test1 (7 Jun 2017 10:47:21 am)
+[2017.06.06-14.47.21:222][659]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Test1
+[2017.06.06-14.47.21:225][659]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002039s)
+[2017.06.06-14.47.21:225][659]LogAIModule: Creating AISystem for world Test1
+[2017.06.06-14.47.21:226][659]LogPlayLevel: PIE: World Init took: (0.001168s)
+[2017.06.06-14.47.21:226][659]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Test1.Test1 to /Game/UEDPIE_0_Test1.Test1 (0.003569s)
+[2017.06.06-14.47.21:242][659]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.06-14.47.21:250][659]LogInit: FAudioDevice initialized.
+[2017.06.06-14.47.21:290][659]LogLoad: Game class is 'H2O_DefaultGameMode_C'
+[2017.06.06-14.47.21:291][659]LogWorld: Bringing World /Game/UEDPIE_0_Test1.Test1 up for play (max tick rate 60) at 2017.06.07-00.47.21
+[2017.06.06-14.47.21:292][659]LogWorld: Bringing up level for play took: 0.000663
+[2017.06.06-14.47.21:293][659]PIE: Info Play in editor start time for /Game/UEDPIE_0_Test1 -0.805
+[2017.06.06-14.47.35:589][426]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.06-14.47.35:589][426]PIE: New page: PIE session: Test1 (7 Jun 2017 10:47:35 am)
+[2017.06.06-14.47.35:589][426]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Test1
+[2017.06.06-14.47.35:592][426]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002411s)
+[2017.06.06-14.47.35:593][426]LogAIModule: Creating AISystem for world Test1
+[2017.06.06-14.47.35:593][426]LogPlayLevel: PIE: World Init took: (0.001395s)
+[2017.06.06-14.47.35:593][426]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Test1.Test1 to /Game/UEDPIE_0_Test1.Test1 (0.004062s)
+[2017.06.06-14.47.35:612][426]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.06-14.47.35:619][426]LogInit: FAudioDevice initialized.
+[2017.06.06-14.47.35:726][426]LogLoad: Game class is 'H2O_DefaultGameMode_C'
+[2017.06.06-14.47.35:729][426]LogWorld: Bringing World /Game/UEDPIE_0_Test1.Test1 up for play (max tick rate 60) at 2017.06.07-00.47.35
+[2017.06.06-14.47.35:729][426]LogWorld: Bringing up level for play took: 0.000800
+[2017.06.06-14.47.35:740][426]PIE: Info Play in editor start time for /Game/UEDPIE_0_Test1 -0.357
+[2017.06.06-14.47.35:783][426]LogRenderer: Reallocating scene render targets to support 1320x756 NumSamples 1 (Frame:1).
+[2017.06.06-14.47.40:287][695]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.47.40:554][711]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.47.41:488][767]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.47.41:721][781]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.47.42:154][807]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.47.42:372][820]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.47.42:624][835]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.47.42:825][847]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.47.43:459][885]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.47.43:676][898]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.47.43:927][913]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.47.44:146][926]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.47.48:096][163]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.47.48:264][173]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.47.48:448][184]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.47.48:634][195]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.47.48:818][206]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.47.49:002][217]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.48.19:544][ 18]BlueprintLog: New page: Compile H2O_Default_ThirdPersonCharacter
+[2017.06.06-14.48.20:013][ 34]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/H2O_Default_ThirdPersonCharacter" FILE="D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset" SILENT=true
+[2017.06.06-14.48.20:127][ 34]LogSavePackage: Save=111.12ms
+[2017.06.06-14.48.20:127][ 34]LogSavePackage: Moving 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Saved/H2O_Default_ThirdPersonCharacter47BEACB34CACB69FCEC14A913B603D79.tmp' to 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset'
+[2017.06.06-14.48.20:129][ 34]LogSavePackage:Display: Finished SavePackage D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset
+[2017.06.06-14.48.24:041][245]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.06-14.48.24:041][245]PIE: New page: PIE session: Test1 (7 Jun 2017 10:48:24 am)
+[2017.06.06-14.48.24:041][245]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Test1
+[2017.06.06-14.48.24:043][245]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002340s)
+[2017.06.06-14.48.24:044][245]LogAIModule: Creating AISystem for world Test1
+[2017.06.06-14.48.24:044][245]LogPlayLevel: PIE: World Init took: (0.000908s)
+[2017.06.06-14.48.24:044][245]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Test1.Test1 to /Game/UEDPIE_0_Test1.Test1 (0.003516s)
+[2017.06.06-14.48.24:061][245]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.06-14.48.24:069][245]LogInit: FAudioDevice initialized.
+[2017.06.06-14.48.24:103][245]LogLoad: Game class is 'H2O_DefaultGameMode_C'
+[2017.06.06-14.48.24:106][245]LogWorld: Bringing World /Game/UEDPIE_0_Test1.Test1 up for play (max tick rate 60) at 2017.06.07-00.48.24
+[2017.06.06-14.48.24:106][245]LogWorld: Bringing up level for play took: 0.000691
+[2017.06.06-14.48.24:108][245]PIE: Info Play in editor start time for /Game/UEDPIE_0_Test1 0.011
+[2017.06.06-14.48.45:720][482]BlueprintLog: New page: Compile H2O_Default_ThirdPersonCharacter
+[2017.06.06-14.48.46:245][501]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/H2O_Default_ThirdPersonCharacter" FILE="D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset" SILENT=true
+[2017.06.06-14.48.46:367][501]LogSavePackage: Save=118.10ms
+[2017.06.06-14.48.46:367][501]LogSavePackage: Moving 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Saved/H2O_Default_ThirdPersonCharacter45A68D6944BD3B458C5DF2A8C9F8B814.tmp' to 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset'
+[2017.06.06-14.48.46:368][501]LogSavePackage:Display: Finished SavePackage D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset
+[2017.06.06-14.48.47:610][554]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.06-14.48.47:626][554]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.06-14.48.47:626][554]PIE: New page: PIE session: Test1 (7 Jun 2017 10:48:47 am)
+[2017.06.06-14.48.47:626][554]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Test1
+[2017.06.06-14.48.47:628][554]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002193s)
+[2017.06.06-14.48.47:629][554]LogAIModule: Creating AISystem for world Test1
+[2017.06.06-14.48.47:630][554]LogPlayLevel: PIE: World Init took: (0.001193s)
+[2017.06.06-14.48.47:630][554]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Test1.Test1 to /Game/UEDPIE_0_Test1.Test1 (0.003751s)
+[2017.06.06-14.48.47:650][554]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.06-14.48.47:657][554]LogInit: FAudioDevice initialized.
+[2017.06.06-14.48.47:692][554]LogLoad: Game class is 'H2O_DefaultGameMode_C'
+[2017.06.06-14.48.47:694][554]LogWorld: Bringing World /Game/UEDPIE_0_Test1.Test1 up for play (max tick rate 60) at 2017.06.07-00.48.47
+[2017.06.06-14.48.47:694][554]LogWorld: Bringing up level for play took: 0.000630
+[2017.06.06-14.48.47:696][554]PIE: Info Play in editor start time for /Game/UEDPIE_0_Test1 -0.401
+[2017.06.06-14.49.06:718][695]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Reload / Pumping Gun
+[2017.06.06-14.49.07:151][721]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.49.07:418][737]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.49.08:285][789]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.49.08:601][808]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.50.52:955][995]BlueprintLog: New page: Compile H2O_Default_ThirdPersonCharacter
+[2017.06.06-14.50.53:606][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/H2O_Default_ThirdPersonCharacter" FILE="D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset" SILENT=true
+[2017.06.06-14.50.53:729][ 11]LogSavePackage: Save=116.29ms
+[2017.06.06-14.50.53:729][ 11]LogSavePackage: Moving 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Saved/H2O_Default_ThirdPersonCharacter634FC9DE4DF0970542167F8779D87C84.tmp' to 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset'
+[2017.06.06-14.50.53:731][ 11]LogSavePackage:Display: Finished SavePackage D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset
+[2017.06.06-14.51.14:946][217]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.06-14.51.14:962][217]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.06-14.51.14:962][217]PIE: New page: PIE session: Test1 (7 Jun 2017 10:51:14 am)
+[2017.06.06-14.51.14:962][217]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Test1
+[2017.06.06-14.51.14:965][217]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002727s)
+[2017.06.06-14.51.14:966][217]LogAIModule: Creating AISystem for world Test1
+[2017.06.06-14.51.14:966][217]LogPlayLevel: PIE: World Init took: (0.001122s)
+[2017.06.06-14.51.14:966][217]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Test1.Test1 to /Game/UEDPIE_0_Test1.Test1 (0.004071s)
+[2017.06.06-14.51.14:984][217]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.06-14.51.14:990][217]LogInit: FAudioDevice initialized.
+[2017.06.06-14.51.15:020][217]LogLoad: Game class is 'H2O_DefaultGameMode_C'
+[2017.06.06-14.51.15:023][217]LogWorld: Bringing World /Game/UEDPIE_0_Test1.Test1 up for play (max tick rate 60) at 2017.06.07-00.51.15
+[2017.06.06-14.51.15:023][217]LogWorld: Bringing up level for play took: 0.000680
+[2017.06.06-14.51.15:025][217]PIE: Info Play in editor start time for /Game/UEDPIE_0_Test1 0.928
+[2017.06.06-14.51.16:432][301]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.51.16:715][318]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.51.16:998][335]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.51.17:782][382]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.51.17:998][395]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.51.20:082][520]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.51.20:398][539]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.51.20:682][556]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.51.22:782][682]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.51.23:032][697]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.51.23:432][721]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.51.28:932][ 51]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.51.29:466][ 83]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.51.30:466][143]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.51.30:933][171]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.51.31:132][183]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.51.31:699][217]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.51.32:200][247]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.51.32:400][259]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.51.32:633][273]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.51.33:983][354]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.51.34:466][383]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.51.35:216][428]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.51.35:616][452]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.51.36:117][482]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.51.36:533][507]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.51.36:883][528]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.51.40:067][719]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.51.40:466][743]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.51.40:850][766]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.51.41:417][800]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.51.41:617][812]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Reload / Pumping Gun
+[2017.06.06-14.51.42:667][875]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.51.42:900][889]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.51.43:183][906]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.51.43:484][924]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.51.43:850][946]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.51.44:767][  1]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Grenade
+[2017.06.06-14.51.44:967][ 13]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Grenade
+[2017.06.06-14.51.45:284][ 32]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Grenade
+[2017.06.06-14.51.45:917][ 70]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Reload / Pumping Gun
+[2017.06.06-14.51.46:117][ 82]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Reload / Pumping Gun
+[2017.06.06-14.51.46:284][ 92]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Reload / Pumping Gun
+[2017.06.06-14.51.46:467][103]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Reload / Pumping Gun
+[2017.06.06-14.51.46:650][114]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Reload / Pumping Gun
+[2017.06.06-14.51.47:217][148]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.51.47:467][163]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.51.47:701][177]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.51.48:667][235]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Reload / Pumping Gun
+[2017.06.06-14.52.05:785][262]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.52.06:152][284]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.52.06:352][296]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.52.06:636][313]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.52.06:819][324]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.52.11:422][547]BlueprintLog: New page: Compile H2O_Default_ThirdPersonCharacter
+[2017.06.06-14.52.11:914][564]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/H2O_Default_ThirdPersonCharacter" FILE="D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset" SILENT=true
+[2017.06.06-14.52.12:032][564]LogSavePackage: Save=116.32ms
+[2017.06.06-14.52.12:032][564]LogSavePackage: Moving 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Saved/H2O_Default_ThirdPersonCharacterDB3E72714BF9632A6D25C0818AB71ECB.tmp' to 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset'
+[2017.06.06-14.52.12:034][564]LogSavePackage:Display: Finished SavePackage D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset
+[2017.06.06-14.53.49:253][721]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.06-14.53.49:270][721]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.06-14.53.49:270][721]PIE: New page: PIE session: Test1 (7 Jun 2017 10:53:49 am)
+[2017.06.06-14.53.49:271][721]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Test1
+[2017.06.06-14.53.49:273][721]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002319s)
+[2017.06.06-14.53.49:274][721]LogAIModule: Creating AISystem for world Test1
+[2017.06.06-14.53.49:274][721]LogPlayLevel: PIE: World Init took: (0.000829s)
+[2017.06.06-14.53.49:274][721]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Test1.Test1 to /Game/UEDPIE_0_Test1.Test1 (0.003364s)
+[2017.06.06-14.53.49:293][721]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.06-14.53.49:301][721]LogInit: FAudioDevice initialized.
+[2017.06.06-14.53.49:337][721]LogLoad: Game class is 'H2O_DefaultGameMode_C'
+[2017.06.06-14.53.49:339][721]LogWorld: Bringing World /Game/UEDPIE_0_Test1.Test1 up for play (max tick rate 60) at 2017.06.07-00.53.49
+[2017.06.06-14.53.49:339][721]LogWorld: Bringing up level for play took: 0.000634
+[2017.06.06-14.53.49:341][721]PIE: Info Play in editor start time for /Game/UEDPIE_0_Test1 -0.756
+[2017.06.06-14.53.54:981][ 58]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.53.55:231][ 73]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.53.55:665][ 99]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.53.56:397][143]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.53.56:665][159]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.53.57:298][197]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.53.57:698][221]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.53.59:931][355]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.54.00:265][375]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.54.02:398][503]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.54.02:648][518]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.54.02:865][531]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.54.03:915][594]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.54.04:532][631]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.54.04:765][645]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.54.05:499][689]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.54.05:832][709]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-14.54.25:586][657]BlueprintLog: New page: Compile H2O_Default_ThirdPersonCharacter
+[2017.06.06-14.54.25:968][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/H2O_Default_ThirdPersonCharacter" FILE="D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset" SILENT=true
+[2017.06.06-14.54.26:088][667]LogSavePackage: Save=117.47ms
+[2017.06.06-14.54.26:088][667]LogSavePackage: Moving 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Saved/H2O_Default_ThirdPersonCharacter58EE7BF54D0242C9568301A85F114C52.tmp' to 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset'
+[2017.06.06-14.54.26:090][667]LogSavePackage:Display: Finished SavePackage D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset
+[2017.06.06-14.55.04:572][  2]BlueprintLog: New page: Compile H2O_Default_ThirdPersonCharacter
+[2017.06.06-14.55.05:036][  7]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/H2O_Default_ThirdPersonCharacter" FILE="D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset" SILENT=true
+[2017.06.06-14.55.05:154][  7]LogSavePackage: Save=115.11ms
+[2017.06.06-14.55.05:154][  7]LogSavePackage: Moving 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Saved/H2O_Default_ThirdPersonCharacterB2CA5C714DB1F64FF15494BE9B3F274C.tmp' to 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset'
+[2017.06.06-14.55.05:155][  7]LogSavePackage:Display: Finished SavePackage D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset
+[2017.06.06-14.57.54:059][ 48]BlueprintLog: New page: Compile H2O_Default_ThirdPersonCharacter
+[2017.06.06-14.57.54:525][ 62]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/H2O_Default_ThirdPersonCharacter" FILE="D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset" SILENT=true
+[2017.06.06-14.57.54:659][ 62]LogSavePackage: Save=124.03ms
+[2017.06.06-14.57.54:659][ 62]LogSavePackage: Moving 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Saved/H2O_Default_ThirdPersonCharacter839CC420428FE59D057A62AA0F815480.tmp' to 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset'
+[2017.06.06-14.57.54:660][ 62]LogSavePackage:Display: Finished SavePackage D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset
+[2017.06.06-14.59.17:718][207]BlueprintLog: New page: Compile H2O_Default_ThirdPersonCharacter
+[2017.06.06-14.59.18:168][221]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/H2O_Default_ThirdPersonCharacter" FILE="D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset" SILENT=true
+[2017.06.06-14.59.18:294][221]LogSavePackage: Save=123.66ms
+[2017.06.06-14.59.18:294][221]LogSavePackage: Moving 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Saved/H2O_Default_ThirdPersonCharacter64B264A94ACF920758BE168E35177526.tmp' to 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset'
+[2017.06.06-14.59.18:296][221]LogSavePackage:Display: Finished SavePackage D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset
+[2017.06.06-15.00.39:374][366]BlueprintLog: New page: Compile H2O_Default_ThirdPersonCharacter
+[2017.06.06-15.00.39:830][381]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/H2O_Default_ThirdPersonCharacter" FILE="D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset" SILENT=true
+[2017.06.06-15.00.39:946][381]LogSavePackage: Save=113.66ms
+[2017.06.06-15.00.39:946][381]LogSavePackage: Moving 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Saved/H2O_Default_ThirdPersonCharacter16E3CCC84012061CF21693991C27C34A.tmp' to 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset'
+[2017.06.06-15.00.39:948][381]LogSavePackage:Display: Finished SavePackage D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset
+[2017.06.06-15.00.53:080][111]BlueprintLog: New page: Compile H2O_Default_ThirdPersonCharacter
+[2017.06.06-15.00.53:683][135]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/H2O_Default_ThirdPersonCharacter" FILE="D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset" SILENT=true
+[2017.06.06-15.00.53:799][135]LogSavePackage: Save=112.39ms
+[2017.06.06-15.00.53:799][135]LogSavePackage: Moving 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Saved/H2O_Default_ThirdPersonCharacterCDAE2B3A484988A04DA713BAB67C92FB.tmp' to 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset'
+[2017.06.06-15.00.53:800][135]LogSavePackage:Display: Finished SavePackage D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset
+[2017.06.06-15.00.57:488][301]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.06-15.00.57:506][301]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.06-15.00.57:506][301]PIE: New page: PIE session: Test1 (7 Jun 2017 11:00:57 am)
+[2017.06.06-15.00.57:506][301]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Test1
+[2017.06.06-15.00.57:509][301]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003017s)
+[2017.06.06-15.00.57:510][301]LogAIModule: Creating AISystem for world Test1
+[2017.06.06-15.00.57:511][301]LogPlayLevel: PIE: World Init took: (0.001305s)
+[2017.06.06-15.00.57:511][301]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Test1.Test1 to /Game/UEDPIE_0_Test1.Test1 (0.004627s)
+[2017.06.06-15.00.57:528][301]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.06-15.00.57:538][301]LogInit: FAudioDevice initialized.
+[2017.06.06-15.00.57:574][301]LogLoad: Game class is 'H2O_DefaultGameMode_C'
+[2017.06.06-15.00.57:576][301]LogWorld: Bringing World /Game/UEDPIE_0_Test1.Test1 up for play (max tick rate 60) at 2017.06.07-01.00.57
+[2017.06.06-15.00.57:576][301]LogWorld: Bringing up level for play took: 0.000659
+[2017.06.06-15.00.57:578][301]PIE: Info Play in editor start time for /Game/UEDPIE_0_Test1 -0.519
+[2017.06.06-15.01.04:033][688]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-15.01.04:317][705]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-15.01.04:633][724]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-15.01.04:883][739]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-15.01.05:250][761]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-15.01.06:034][808]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Reload / Pumping Gun
+[2017.06.06-15.01.06:800][854]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-15.01.07:017][867]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-15.01.07:384][889]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-15.01.07:650][905]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-15.01.08:267][942]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-15.01.09:017][987]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-15.01.09:567][ 20]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-15.01.10:184][ 57]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-15.01.17:584][501]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-15.01.17:868][518]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-15.01.18:218][539]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Reload / Pumping Gun
+[2017.06.06-15.01.20:835][696]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-15.01.21:085][711]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-15.01.21:268][722]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-15.01.21:501][736]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-15.01.21:718][749]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-15.01.21:918][761]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-15.01.23:518][857]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-15.01.23:735][870]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-15.01.23:985][885]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-15.01.24:384][909]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-15.01.24:602][922]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-15.01.24:835][936]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-15.01.25:035][948]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-15.01.25:251][961]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-15.01.25:835][996]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-15.01.26:085][ 11]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-15.01.26:352][ 27]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-15.01.26:568][ 40]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-15.01.27:168][ 76]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-15.01.27:902][120]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-15.01.28:535][158]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-15.01.28:802][174]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-15.01.29:068][190]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-15.01.29:502][216]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-15.01.30:502][276]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-15.01.30:735][290]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-15.01.30:919][301]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-15.01.31:269][322]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-15.01.31:519][337]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-15.01.31:785][353]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-15.01.32:986][425]LogBlueprintUserMessages: [H2O_Default_ThirdPersonCharacter_C_0] Shoot
+[2017.06.06-15.01.49:464][724]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/H2O_Default_ThirdPersonCharacter" FILE="D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset" SILENT=true
+[2017.06.06-15.01.49:572][724]LogSavePackage: Save=105.28ms
+[2017.06.06-15.01.49:572][724]LogSavePackage: Moving 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Saved/H2O_Default_ThirdPersonCharacterC567AA034A7907C67C71C1A82B214DD8.tmp' to 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset'
+[2017.06.06-15.01.49:572][724]LogSavePackage:Display: Finished SavePackage D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Blueprints/H2O_Default_ThirdPersonCharacter.uasset
+[2017.06.06-15.02.05:494][595]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Test1" FILE="D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Test1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.06.06-15.02.05:552][595]LogSavePackage: Save=37.73ms
+[2017.06.06-15.02.05:552][595]LogSavePackage: Moving 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Saved/Test1703936B54A166E6C91404A804E93558F.tmp' to 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Test1.umap'
+[2017.06.06-15.02.05:553][595]LogSavePackage:Display: Finished SavePackage D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Test1.umap
+[2017.06.06-15.02.06:820][664]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.06-15.02.06:997][665]Cmd: QUIT_EDITOR
+[2017.06.06-15.02.07:107][665]LogExit: Preparing to exit.
+[2017.06.06-15.02.07:621][665]LogExit: Editor shut down
+[2017.06.06-15.02.07:625][665]LogExit: Transaction tracking system shut down
+[2017.06.06-15.02.07:712][665]LogObj: Freed 0b from 0 cluster array pools.
+[2017.06.06-15.02.07:712][665]LogExit: Object subsystem successfully closed.
+[2017.06.06-15.02.07:731][665]LogD3D11RHI: Shutdown
+[2017.06.06-15.02.07:731][665]LogD3D11RHI: CleanupD3DDevice
+[2017.06.06-15.02.07:833][665]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.06.06-15.02.07:853][665]LogModuleManager: Shutting down and abandoning module BlueprintGraph (530)
+[2017.06.06-15.02.07:853][665]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (528)
+[2017.06.06-15.02.07:853][665]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (526)
+[2017.06.06-15.02.07:853][665]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.06.06-15.02.07:853][665]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.06.06-15.02.07:853][665]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.06.06-15.02.07:853][665]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.06.06-15.02.07:854][665]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.06.06-15.02.07:855][665]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.06.06-15.02.07:855][665]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.06.06-15.02.07:855][665]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.06.06-15.02.07:855][665]LogDirectoryWatcher: A directory notification for 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Collections/' was aborted.
+[2017.06.06-15.02.07:855][665]LogDirectoryWatcher: A directory notification for 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/Developers/Cola/Collections/' was aborted.
+[2017.06.06-15.02.07:855][665]LogDirectoryWatcher: A directory notification for 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Saved/Collections/' was aborted.
+[2017.06.06-15.02.07:855][665]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.06.06-15.02.07:855][665]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.06.06-15.02.07:855][665]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.06.06-15.02.07:855][665]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.06.06-15.02.07:855][665]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.06.06-15.02.07:855][665]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.06.06-15.02.07:855][665]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.06.06-15.02.07:855][665]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.06.06-15.02.07:855][665]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.06.06-15.02.07:855][665]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.06.06-15.02.07:855][665]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.06.06-15.02.07:855][665]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.06.06-15.02.07:855][665]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.06.06-15.02.07:855][665]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.06.06-15.02.07:855][665]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.06.06-15.02.07:855][665]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.06.06-15.02.07:855][665]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.06.06-15.02.07:855][665]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.06.06-15.02.07:855][665]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.06.06-15.02.07:855][665]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.06.06-15.02.07:855][665]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.06.06-15.02.07:855][665]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.06.06-15.02.07:855][665]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.06.06-15.02.07:855][665]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.06.06-15.02.07:856][665]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.06.06-15.02.07:856][665]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.06.06-15.02.07:856][665]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.06.06-15.02.07:856][665]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.06.06-15.02.07:856][665]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.06.06-15.02.07:856][665]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.06.06-15.02.07:856][665]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.06.06-15.02.07:856][665]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.06.06-15.02.07:856][665]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.06.06-15.02.07:856][665]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.06.06-15.02.07:856][665]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.06.06-15.02.07:856][665]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.06.06-15.02.07:856][665]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.06.06-15.02.07:856][665]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.06.06-15.02.08:740][665]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.06.06-15.02.08:740][665]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.06.06-15.02.08:740][665]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.06.06-15.02.08:740][665]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.06.06-15.02.08:740][665]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.06.06-15.02.08:740][665]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.06.06-15.02.08:740][665]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.06.06-15.02.08:740][665]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.06.06-15.02.08:740][665]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.06.06-15.02.08:740][665]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.06.06-15.02.08:740][665]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.06.06-15.02.08:740][665]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.06.06-15.02.08:740][665]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.06.06-15.02.08:740][665]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.06.06-15.02.08:740][665]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.06.06-15.02.08:740][665]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.06.06-15.02.08:740][665]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.06.06-15.02.08:740][665]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.06.06-15.02.08:740][665]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.06.06-15.02.08:740][665]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.06.06-15.02.08:740][665]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.06.06-15.02.08:740][665]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.06.06-15.02.08:740][665]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.06.06-15.02.08:741][665]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.06.06-15.02.08:793][665]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.06.06-15.02.08:793][665]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.06.06-15.02.08:793][665]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.06.06-15.02.08:793][665]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.06.06-15.02.08:793][665]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.06.06-15.02.08:793][665]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.06.06-15.02.08:793][665]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.06.06-15.02.08:793][665]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.06.06-15.02.08:793][665]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.06.06-15.02.08:793][665]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.06.06-15.02.08:800][665]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.06.06-15.02.08:800][665]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.06.06-15.02.08:800][665]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.06.06-15.02.08:800][665]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.06.06-15.02.08:801][665]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.06.06-15.02.08:801][665]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.06.06-15.02.08:801][665]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.06.06-15.02.08:801][665]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.06.06-15.02.08:801][665]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.06.06-15.02.08:801][665]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.06.06-15.02.08:801][665]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.06.06-15.02.08:801][665]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.06.06-15.02.08:801][665]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.06.06-15.02.08:801][665]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.06.06-15.02.08:801][665]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.06.06-15.02.08:801][665]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.06.06-15.02.08:801][665]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.06.06-15.02.08:801][665]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.06.06-15.02.08:801][665]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.06.06-15.02.08:801][665]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.06.06-15.02.08:863][665]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.06.06-15.02.08:863][665]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.06.06-15.02.08:863][665]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.06.06-15.02.08:863][665]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.06.06-15.02.08:863][665]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.06.06-15.02.08:863][665]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.06.06-15.02.08:863][665]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.06.06-15.02.08:863][665]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.06.06-15.02.08:863][665]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.06.06-15.02.08:863][665]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.06.06-15.02.08:863][665]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.06.06-15.02.08:863][665]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.06.06-15.02.08:863][665]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.06.06-15.02.08:863][665]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.06.06-15.02.08:863][665]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.06.06-15.02.08:864][665]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.06.06-15.02.08:864][665]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.06.06-15.02.08:864][665]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.06.06-15.02.08:864][665]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.06.06-15.02.08:864][665]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.06.06-15.02.08:864][665]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.06.06-15.02.08:864][665]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.06.06-15.02.08:864][665]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.06.06-15.02.08:864][665]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.06.06-15.02.08:864][665]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.06.06-15.02.08:864][665]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.06.06-15.02.08:864][665]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.06.06-15.02.08:864][665]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.06.06-15.02.08:864][665]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.06.06-15.02.08:864][665]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.06.06-15.02.08:864][665]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.06.06-15.02.08:864][665]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.06.06-15.02.08:864][665]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.06.06-15.02.08:864][665]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.06.06-15.02.08:864][665]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.06.06-15.02.08:864][665]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.06.06-15.02.08:864][665]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.06.06-15.02.08:864][665]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.06.06-15.02.08:864][665]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.06.06-15.02.08:865][665]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.06.06-15.02.08:865][665]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.06.06-15.02.08:865][665]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.06.06-15.02.08:865][665]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.06.06-15.02.08:865][665]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.06.06-15.02.08:865][665]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.06.06-15.02.08:966][665]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.06.06-15.02.09:067][665]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.06.06-15.02.09:067][665]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.06.06-15.02.09:067][665]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.06.06-15.02.09:067][665]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.06.06-15.02.09:067][665]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.06.06-15.02.09:067][665]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.06.06-15.02.09:067][665]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.06.06-15.02.09:068][665]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.06.06-15.02.09:068][665]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.06.06-15.02.09:068][665]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.06.06-15.02.09:068][665]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.06.06-15.02.09:068][665]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.06.06-15.02.09:068][665]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.06.06-15.02.09:068][665]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.06.06-15.02.09:068][665]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.06.06-15.02.09:068][665]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.06.06-15.02.09:068][665]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.06.06-15.02.09:068][665]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.06.06-15.02.09:068][665]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.06.06-15.02.09:068][665]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.06.06-15.02.09:068][665]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.06.06-15.02.09:068][665]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.06.06-15.02.09:068][665]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.06.06-15.02.09:068][665]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.06.06-15.02.09:068][665]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.06.06-15.02.09:068][665]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.06.06-15.02.09:068][665]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.06.06-15.02.09:068][665]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.06.06-15.02.09:068][665]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.06.06-15.02.09:070][665]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.06.06-15.02.09:070][665]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.06.06-15.02.09:070][665]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.06.06-15.02.09:070][665]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.06.06-15.02.09:070][665]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.06.06-15.02.09:070][665]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.06.06-15.02.09:270][665]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.06.06-15.02.09:270][665]LogDirectoryWatcher: A directory notification for 'D:/H2Owned_MajorProject2017-Repo/H2Owned_2017/Content/' was aborted.
+[2017.06.06-15.02.09:270][665]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.06.06-15.02.09:270][665]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.06.06-15.02.09:272][665]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.06.06-15.02.09:272][665]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.06.06-15.02.09:272][665]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.06.06-15.02.09:272][665]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.06.06-15.02.09:272][665]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.06.06-15.02.09:272][665]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.06.06-15.02.09:272][665]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.06.06-15.02.09:272][665]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.06.06-15.02.09:272][665]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.06.06-15.02.09:312][665]LogDerivedDataCache: Shutdown
+[2017.06.06-15.02.09:312][665]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.06.06-15.02.09:312][665]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.06.06-15.02.09:312][665]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.06.06-15.02.09:312][665]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.06.06-15.02.09:312][665]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.06.06-15.02.09:312][665]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.06.06-15.02.09:312][665]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.06.06-15.02.09:312][665]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.06.06-15.02.09:312][665]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.06.06-15.02.09:312][665]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.06.06-15.02.09:312][665]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.06.06-15.02.09:312][665]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.06.06-15.02.09:312][665]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.06.06-15.02.09:312][665]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.06.06-15.02.09:312][665]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.06.06-15.02.09:312][665]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.06.06-15.02.09:312][665]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.06.06-15.02.09:312][665]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.06.06-15.02.09:313][665]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.06.06-15.02.09:313][665]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.06.06-15.02.09:313][665]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.06.06-15.02.09:313][665]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.06.06-15.02.09:313][665]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.06.06-15.02.09:313][665]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.06.06-15.02.09:313][665]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.06.06-15.02.09:313][665]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.06.06-15.02.09:313][665]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.06.06-15.02.09:313][665]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.06.06-15.02.09:313][665]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.06.06-15.02.09:313][665]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.06.06-15.02.09:313][665]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.06.06-15.02.09:313][665]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.06.06-15.02.09:313][665]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.06.06-15.02.09:313][665]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.06.06-15.02.09:313][665]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.06.06-15.02.09:313][665]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.06.06-15.02.09:313][665]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.06.06-15.02.09:313][665]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.06.06-15.02.09:313][665]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.06.06-15.02.09:313][665]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.06.06-15.02.09:313][665]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.06.06-15.02.09:313][665]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.06.06-15.02.09:313][665]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.06.06-15.02.09:313][665]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.06.06-15.02.09:313][665]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.06.06-15.02.09:313][665]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.06.06-15.02.09:313][665]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.06.06-15.02.09:313][665]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.06.06-15.02.09:313][665]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.06.06-15.02.09:313][665]LogOnline:Display: Unloading online subsystem: NULL
+[2017.06.06-15.02.09:313][665]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.06.06-15.02.09:313][665]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.06.06-15.02.09:313][665]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.06.06-15.02.09:313][665]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE6C3CA31-4D2B-7DCB-8DA8-259B524E1F55%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.1-3466753%2B%2B%2BUE4%2BRelease-4.16&UserID=57604ec6445af2ebbfa1649892542233%7Ce4273a936e1d4ff49d132d0f3f4ae042%7Cfddd16a5-1a87-489a-85cf-db1f739d3a23&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.06.06-15.02.09:337][665]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.06.06-15.02.09:339][665]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.06.06-15.02.09:339][665]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.06.06-15.02.09:339][665]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.06.06-15.02.09:339][665]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.06.06-15.02.09:339][665]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.06.06-15.02.09:339][665]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.06.06-15.02.09:339][665]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.06.06-15.02.09:339][665]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.06.06-15.02.09:340][665]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.06.06-15.02.09:340][665]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.06.06-15.02.09:340][665]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.06.06-15.02.09:340][665]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.06.06-15.02.09:340][665]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.06.06-15.02.09:340][665]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.06.06-15.02.09:340][665]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.06.06-15.02.09:340][665]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.06.06-15.02.09:340][665]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.06.06-15.02.09:340][665]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.06.06-15.02.09:342][665]LogExit: Exiting.
+[2017.06.06-15.02.09:354][665]Log file closed, 06/07/17 01:02:09
